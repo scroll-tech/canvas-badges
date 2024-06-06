@@ -1,0 +1,60 @@
+name: Issue To Pr
+
+on:
+  issues:
+    types:
+      - opened
+      - labeled
+
+jobs:
+  issue-to-pr:
+    name: Issue To Pr
+    runs-on: ubuntu-latest
+    outputs:
+      branch-name: new-badge/${{ steps.issue-parser.outputs.issueparser_symbol }}
+      pr-number: ${{ steps.create-pr.outputs.pull-request-number }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Parse Issue Body
+        uses: stefanbuck/github-issue-praser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/add_badge.yml
+
+      - name: Parse Badge
+        id: parse-badge
+        run: node scripts/parseBadge.mjs
+        env:
+          RESOLVED_BADGE_STR: ${{ steps.issue-parser.outputs.jsonString }}
+
+      - name: Add Badge
+        id: add-badge
+        run: node scripts/addBadge.mjs
+        env:
+          NEW_BADGE: ${{ steps.parse-badge.outputs.new-badge }}
+
+      - name: Create Pull Request
+        id: create-pr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          title: "[New Badge]: ${{ steps.parse-badge.outputs.new-badge.name }} issued by ${{ steps.parse-badge.outputs.new-badge.issuerName }}"
+          body: "Refer Issue: #${{ github.event.issue.number }}"
+          commit-message: add ${{ steps.parse-badge.outputs.new-badge.name }}
+          base: main
+          branch: new-badge/${{ steps.parse-badge.outputs.new-badge.name }}
+          delete-branch: true
+          add-paths: scroll.badgelist.json
+          labels: |
+            new
+            need to review

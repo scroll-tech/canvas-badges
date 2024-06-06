@@ -1,0 +1,39 @@
+# issue-to-pr will not trigger this workflow
+name: Validate TokenList
+
+on:
+  push:
+    paths:
+      - scroll.tokenlist.json
+  pull_request:
+    paths:
+      - scroll.tokenlist.json
+
+jobs:
+  validate:
+    name: Validate TokenList
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Run validate script
+        run: node scripts/validateJson.mjs
+
+      - name: Show Token List
+        if: success() && github.event.type == 'PullRequestEvent'
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            :tada: [Click here](https://tokenlists.org/token-list?url=https://raw.githubusercontent.com/scroll-tech/token-list/${{ github.head_ref }}/scroll.tokenlist.json) to preview token list
+          comment_tag: tokenListUrl

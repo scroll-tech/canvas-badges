@@ -1,0 +1,61 @@
+name: "Add badge"
+description: "Users can see them on the scroll canvas and mint them."
+title: "[Badge]: "
+labels: ["new"]
+body:
+  - type: input
+    id: attesterProxyAddress
+    attributes:
+      label: Attester Proxy Address
+      description: Address of proxy attestation contract deployed on Scroll
+      placeholder: "0xC47300428b6AD2c7D03BB76D05A176058b47E6B0"
+    validations:
+      required: true
+  - type: input
+    id: badgeAddress
+    attributes:
+      label: Badge Address
+      description: Address of badge contranct deployed on Scroll
+      placeholder: "0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0"
+    validations:
+      required: true
+  - type: input
+    id: checkAPI
+    attributes:
+      label: Check API
+      description: Check eligibility for minting badge, refer to https://scrollzkp.notion.site/Badge-APIs-95890d7ca14944e2a6d34835ceb6b914?pvs=74
+      placeholder: "https://scroll.io/api/check?badge=0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0&recipient=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+    validations:
+      required: true
+  - type: input
+    id: claimAPI
+    attributes:
+      label: Claim API
+      description: Return data for minting badge, refer to https://scrollzkp.notion.site/Badge-APIs-95890d7ca14944e2a6d34835ceb6b914?pvs=74
+      placeholder: "https://scroll.io/api/claim?badge=0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0&recipient=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+    validations:
+      required: true
+  - type: input
+    id: issuerName
+    attributes:
+      label: Issuer Name
+      description: Name of badge issuer. Please try to keep it consistent with the one listed on https://scroll.io/ecosystem.
+      placeholder: "Scroll"
+    validations:
+      required: true
+  - type: input
+    id: issuerLogo
+    attributes:
+      label: Issuer Logo
+      description: Logo of badge issuer. It should be a square, preferably an SVG file smaller than 5KB.
+      placeholder: "https://scroll.io/static/media/Scroll_Logomark.673577c8260b63ae56867bc9af6af514.svg"
+    validations:
+      required: true
+  - type: input
+    id: issuerURL
+    attributes:
+      label: Issuer URL
+      description: URL of badge issuer.
+      placeholder: "https://scroll.io"
+    validations:
+      required: true
