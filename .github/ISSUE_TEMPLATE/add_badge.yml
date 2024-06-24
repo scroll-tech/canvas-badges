@@ -4,7 +4,15 @@ title: "[Badge]: "
 labels: ["new"]
 body:
   - type: input
-    id: attesterProxyAddress
+    id: badgeContract
+    attributes:
+      label: Badge Contract Address
+      description: Address of badge contranct deployed on Scroll, for permissionless minting, no need
+      placeholder: "0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0"
+    validations:
+      required: true
+  - type: input
+    id: attesterProxy
     attributes:
       label: Attester Proxy Address
       description: Address of proxy attestation contract deployed on Scroll
@@ -12,27 +20,10 @@ body:
     validations:
       required: true
   - type: input
-    id: badgeAddress
+    id: baseUrl
     attributes:
-      label: Badge Address
-      description: Address of badge contranct deployed on Scroll
-      placeholder: "0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0"
-    validations:
-      required: true
-  - type: input
-    id: checkAPI
-    attributes:
-      label: Check API
-      description: Check eligibility for minting badge, refer to https://scrollzkp.notion.site/Badge-APIs-95890d7ca14944e2a6d34835ceb6b914?pvs=74
-      placeholder: "https://scroll.io/api/check?badge=0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0&recipient=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
-    validations:
-      required: true
-  - type: input
-    id: claimAPI
-    attributes:
-      label: Claim API
-      description: Return data for minting badge, refer to https://scrollzkp.notion.site/Badge-APIs-95890d7ca14944e2a6d34835ceb6b914?pvs=74
-      placeholder: "https://scroll.io/api/claim?badge=0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0&recipient=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+      label: BaseURL of Check/Claim API
+      description: "like {{baseURL}}/check and {{baseURL}}/claim, refer to https://scrollzkp.notion.site/Badge-APIs-95890d7ca14944e2a6d34835ceb6b914"
     validations:
       required: true
   - type: input
@@ -44,18 +35,10 @@ body:
     validations:
       required: true
   - type: input
-    id: issuerLogo
-    attributes:
-      label: Issuer Logo
-      description: Logo of badge issuer. It should be a square, preferably an SVG file smaller than 5KB.
-      placeholder: "https://scroll.io/static/media/Scroll_Logomark.673577c8260b63ae56867bc9af6af514.svg"
-    validations:
-      required: true
-  - type: input
     id: issuerURL
     attributes:
       label: Issuer URL
-      description: URL of badge issuer.
+      description: URL of the badge promotional page, If left blank, it defaults to the issuer’s website on https://scroll.io/ecosystem.
       placeholder: "https://scroll.io"
     validations:
-      required: true
+      required: false

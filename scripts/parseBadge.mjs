@@ -32,40 +32,49 @@ const Badge_ABI = [
 (async () => {
   try {
     const badge = JSON.parse(process.env.RESOLVED_BADGE_STR);
-    const {
-      attesterProxyAddress,
-      badgeAddress,
-      checkAPI,
-      claimAPI,
-      issuerName,
-      issuerLogo,
-      issuerURL,
-    } = badge;
+    const { badgeContract, attesterProxy, baseUrl, issuerName, issuerURL } =
+      badge;
     const publicClient = createPublicClient({
       chain: scroll,
       transport: http(),
     });
     const metadataURL = await publicClient.readContract({
-      address: badgeAddress,
+      address: badgeContract,
       abi: Badge_ABI,
       functionName: "badgeTokenURI",
       args: [
         "0x0000000000000000000000000000000000000000000000000000000000000000",
       ],
     });
-
+    const accessableURL = metadataURL.replace(
+      /^ipfs:\/\/(.*)/,
+      "https://ipfs.io/ipfs/$1"
+    );
     // {name, image, description}
     const metadata = await fetch(metadataURL).then((res) => res.json());
+    const image = metadata.image.replace(
+      /^ipfs:\/\/(.*)/,
+      "https://ipfs.io/ipfs/$1"
+    );
+
+    const protocol = await fetch(
+      `https://ecosystem-list-api.vercel.app/api/query?name=${issuerName}`
+    ).then((res) => res.json());
+    const [{ name: issuerFullName, ext, website }] = protocol;
+    const issuerLogo = `https://scroll-eco-list.netlify.app/logos/${issuerFullName}${ext}`;
 
     const newBadge = {
       ...metadata,
-      issuerName,
-      issuerLogo,
-      issuerURL,
-      attesterProxyAddress,
-      badgeAddress,
-      checkAPI,
-      claimAPI,
+      image,
+      issuer: {
+        name: issuerFullName,
+        logo: issuerLogo,
+        origin: issuerURL || website,
+      },
+      attesterProxy,
+      badgeContract,
+      baseUrl,
+      native: false,
     };
     core.setOutput("new-badge", JSON.stringify(newBadge, null, 2));
     process.exit(0);
