@@ -86,6 +86,8 @@ const Badge_ABI = [
       native: false,
     };
     core.setOutput("new-badge", JSON.stringify(newBadge, null, 2));
+    core.setOutput("new-badge_name", metadata.name.split(" ").join("_"));
+    core.setOutput("new-badge_issuerName", issuerFullName.split(" ").join("_"));
     process.exit(0);
   } catch (e) {
     console.error(e.message);
