@@ -55,12 +55,10 @@ const Badge_ABI = [
       /^ipfs:\/\/(.*)/,
       "https://ipfs.io/ipfs/$1"
     );
-    // {name, image, description}
-    const metadata = await fetch(metadataURL).then((res) => res.json());
-    const image = metadata.image.replace(
-      /^ipfs:\/\/(.*)/,
-      "https://ipfs.io/ipfs/$1"
+    let { name, image, description } = await fetch(metadataURL).then((res) =>
+      res.json()
     );
+    image = image.replace(/^ipfs:\/\/(.*)/, "https://ipfs.io/ipfs/$1");
 
     const { data } = await fetch(
       `https://ecosystem-list-api.vercel.app/api/query?name=${issuerName}`
@@ -73,20 +71,21 @@ const Badge_ABI = [
     const issuerLogo = `https://scroll-eco-list.netlify.app/logos/${issuerFullName}${ext}`;
 
     const newBadge = {
-      ...metadata,
+      name,
       image,
+      description,
+      attesterProxy,
+      badgeContract,
       issuer: {
         name: issuerFullName,
         logo: issuerLogo,
         origin: issuerURL || website,
       },
-      attesterProxy,
-      badgeContract,
       baseUrl,
       native: false,
     };
     core.setOutput("new-badge", JSON.stringify(newBadge, null, 2));
-    core.setOutput("new-badge_name", metadata.name.split(" ").join("_"));
+    core.setOutput("new-badge_name", name.split(" ").join("_"));
     core.setOutput("new-badge_issuerName", issuerFullName.split(" ").join("_"));
     process.exit(0);
   } catch (e) {
