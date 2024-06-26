@@ -13,7 +13,7 @@ import { readJson, generatePath } from "./util.mjs";
     await writeFile(generatePath("../scroll.badgelist.json"), badgeListStr);
     process.exit(0);
   } catch (e) {
-    console.error(e);
+    console.error(e.message);
     process.exit(1);
   }
 })();

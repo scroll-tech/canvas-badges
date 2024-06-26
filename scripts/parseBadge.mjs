@@ -32,8 +32,13 @@ const Badge_ABI = [
 (async () => {
   try {
     const badge = JSON.parse(process.env.RESOLVED_BADGE_STR);
-    const { badgeContract, attesterProxy, baseUrl, issuerName, issuerURL } =
+    let { badgeContract, attesterProxy, baseUrl, issuerName, issuerURL } =
       badge;
+    badgeContract = badgeContract.trim();
+    attesterProxy = attesterProxy.trim();
+    baseUrl = baseUrl.trim();
+    issuerName = issuerName.trim();
+    issuerURL = issuerURL.trim();
     const publicClient = createPublicClient({
       chain: scroll,
       transport: http(),
@@ -57,10 +62,14 @@ const Badge_ABI = [
       "https://ipfs.io/ipfs/$1"
     );
 
-    const protocol = await fetch(
+    const { data } = await fetch(
       `https://ecosystem-list-api.vercel.app/api/query?name=${issuerName}`
     ).then((res) => res.json());
-    const [{ name: issuerFullName, ext, website }] = protocol;
+    if (!data.length) {
+      console.error("Unable to find the relevant data in the ecosystem list!");
+      process.exit(1);
+    }
+    const [{ name: issuerFullName, ext, website }] = data;
     const issuerLogo = `https://scroll-eco-list.netlify.app/logos/${issuerFullName}${ext}`;
 
     const newBadge = {
@@ -79,7 +88,7 @@ const Badge_ABI = [
     core.setOutput("new-badge", JSON.stringify(newBadge, null, 2));
     process.exit(0);
   } catch (e) {
-    console.error(e);
+    console.error(e.message);
     process.exit(1);
   }
 })();

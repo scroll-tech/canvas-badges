@@ -30,7 +30,7 @@ body:
     id: issuerName
     attributes:
       label: Issuer Name
-      description: Name of badge issuer. Please try to keep it consistent with the one listed on https://scroll.io/ecosystem.
+      description: Name of badge issuer. As same as the one listed on https://scroll.io/ecosystem.
       placeholder: "Scroll"
     validations:
       required: true
