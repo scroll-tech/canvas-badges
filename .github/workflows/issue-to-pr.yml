@@ -57,4 +57,4 @@ jobs:
           add-paths: scroll.badgelist.json
           labels: |
             new
-            need to review
+            need review
