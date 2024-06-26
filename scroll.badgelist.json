@@ -1,5 +1,34 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-06-06T02:12:55.046Z",
-  "badges": []
+  "timestamp": "2024-06-26T11:39:31.236Z",
+  "badges": [
+    {
+      "name": "Ambient Swapooor",
+      "description": "Swapooor! You have made a swap on Ambient Finance for over $500. (Art by @ShizzyAizawa)",
+      "attributes": [
+        {
+          "trait_type": "Variant",
+          "value": "Swap"
+        },
+        {
+          "trait_type": "Amount",
+          "value": "500"
+        },
+        {
+          "trait_type": "Artist",
+          "value": "@ShizzyAizawa"
+        }
+      ],
+      "image": "https://ambient.finance/scroll-badge/1.png",
+      "issuer": {
+        "name": "Ambient Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
+        "origin": "https://scroll.ambient.finance/"
+      },
+      "attesterProxy": "0x83f26d1c451DFCFE2e16B479981c6fA2BCCe053F",
+      "badgeContract": "0xDcB439703F40430dE360dfeEd51E4261D1fAa310",
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
+      "native": false
+    }
+  ]
 }
