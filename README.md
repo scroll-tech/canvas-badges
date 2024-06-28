@@ -6,14 +6,18 @@ This repository is dedicated to collecting third-party badges that users can min
 
 #### 1. Open an issue
 
-![New issue](https://i.postimg.cc/PCkxkry7/Clean-Shot-2024-06-28-at-10-36-10-2x.png)
+![new issue](https://github.com/scroll-tech/canvas-badges/assets/21138718/9c65ec3a-6bce-43bb-b6a9-d26ba086a8c0)
 
-![Fill in form](https://i.postimg.cc/FYgKF5nH/Clean-Shot-2024-06-28-at-10-36-36-2x.png)
+
+![issue form](https://github.com/scroll-tech/canvas-badges/assets/21138718/9e64711f-1c70-4c57-92fa-cf8c64654b8f)
+
 
 Then, a pr will be created
-![New pr](https://i.postimg.cc/LJRHbQ6K/Clean-Shot-2024-06-28-at-10-39-09-2x.png)
+![new pr](https://github.com/scroll-tech/canvas-badges/assets/21138718/f26642a3-1f2b-4751-84b4-cb05b7c6b147)
 
-![Pr detail](https://i.postimg.cc/CzbhJp0s/Clean-Shot-2024-06-28-at-10-39-26-2x.png)
+
+![pr detail](https://github.com/scroll-tech/canvas-badges/assets/21138718/f25acaf3-265f-401b-8c33-56c4969e7e8b)
+
 
 #### 2. Official Review
 
@@ -23,7 +27,8 @@ Wait for our official team to review your pull request. You will be notified of 
 
 Upon approval, your badge will be added to the list and will appear on our official website for users to mint.
 
-![Badges on ecosystem](https://i.postimg.cc/LgD2wTRm/Clean-Shot-2024-06-28-at-10-21-39-2x.png)
+![badges on ecosystem](https://github.com/scroll-tech/canvas-badges/assets/21138718/47d5c15c-c545-4bbd-8102-2d713b89b17c)
+
 
 ## Attentions
 
