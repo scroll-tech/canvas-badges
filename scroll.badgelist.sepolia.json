@@ -71,6 +71,34 @@
       },
       "baseUrl": "https://zktrade.net/api/badge",
       "native": false
+    },
+    {
+      "name": "Scroll NFT",
+      "badgeContract": "0xbD8fee984d58381daE28346eF67EDa9e7A664976",
+      "attesterProxy": "0x7C9e7D549Ffbc038F9C22c2097F9aeE102369A1a",
+      "description": "NFT Description",
+      "image": "https://beta.flock.io/static/images/scrollNFT/chat.png",
+      "issuer": {
+        "origin": "https://www.flock.io/#/",
+        "name": "FLock.io",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Flock.io.jpg"
+      },
+      "baseUrl": "https://interface-git-development-flock-io.vercel.app/api/scrollNFT",
+      "native": false
+    },
+    {
+      "name": "Contribution NFT",
+      "badgeContract": "0x6e6518E7E83F9DfB4AC921171BCF19eabeF8105F",
+      "attesterProxy": "0x4e31a76f8dFbf300E94D7381Be20A4f0fB5e370A",
+      "description": "NFT Description",
+      "image": "https://beta.flock.io/static/images/scrollNFT/contribute.png",
+      "issuer": {
+        "origin": "https://www.flock.io/#/",
+        "name": "FLock.io",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Flock.io.jpg"
+      },
+      "baseUrl": "https://interface-git-development-flock-io.vercel.app/api/scrollNFT",
+      "native": false
     }
   ]
 }
