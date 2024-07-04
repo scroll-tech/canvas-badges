@@ -105,7 +105,7 @@
       "badgeContract": "0x71A848A38fFCcA5c7A431F2BB411Ab632Fa0c456",
       "attesterProxy": "0x39571bBD5a4c5d1a5184004c63F45FE426dB85Ea",
       "description": "This badge is for Scrollers who have a Passport score above 20, and have minted an onchain attestation to the Scroll network. Minting this badge informs everyone in the Scroll ecosystem that you’re a real human! Increase your onchain Humanity Score to upgrade your badge.",
-      "image": "https://raw.githubusercontent.com/gitcoinco/passport/93889216df77f83470b948f5c8b3f48c3b0492b4/app/public/scrollBadgeImages/60%2B.png?raw=true",
+      "image": "https://raw.githubusercontent.com/gitcoinco/passport/93889216df77f83470b948f5c8b3f48c3b0492b4/app/public/scrollBadgeImages/60%2B.png",
       "issuer": {
         "origin": "https://www.passport.xyz/",
         "name": "Gitcoin Passport",
