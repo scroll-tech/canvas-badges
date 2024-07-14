@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-14T12:12:45.323Z",
+  "timestamp": "2024-07-14T12:13:29.514Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -22,6 +22,20 @@
       "description": "Providoor! You have minted an LP position on Ambient Finance valued over $1000. (Art by @ShizzyAizawa)",
       "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
       "badgeContract": "0xC634b718618729df70331D79fcd6E889a547fbEB",
+      "issuer": {
+        "name": "Ambient Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
+        "origin": "https://ambient.finance/"
+      },
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
+      "native": false
+    },
+    {
+      "name": "Ambient Filloor",
+      "image": "https://ambient.finance/scroll-badge/3.png",
+      "description": "Filloor! You have filled a limit on Ambient Finance valued over $500. (Art by @ShizzyAizawa)",
+      "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
+      "badgeContract": "0x21C5E85eBCbd924BA633D4A7A5F2718f25C713D8",
       "issuer": {
         "name": "Ambient Finance",
         "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
