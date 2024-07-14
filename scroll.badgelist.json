@@ -1,5 +1,20 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-14T12:13:53.075Z",
-  "badges": []
+  "timestamp": "2024-07-14T14:24:46.136Z",
+  "badges": [
+    {
+      "name": "Zebra",
+      "image": "https://app.zebra.xyz/images/badge.png",
+      "description": "Users who participate in Scroll Canvas and complete tasks will receive Zebra's 'zebra' badge. Users with this badge will enjoy Zebra's early benefits in the future.",
+      "attesterProxy": "0x35BcDcd5813a08f890163c166826856B47e7977F",
+      "badgeContract": "0x09E14E520eec3583681Fe225a4B506743EC3cc78",
+      "issuer": {
+        "name": "Zebra",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Zebra.png",
+        "origin": "https://app.zebra.xyz/"
+      },
+      "baseUrl": "https://zebra.xyz/api/badge",
+      "native": false
+    }
+  ]
 }
