@@ -15,6 +15,20 @@
       },
       "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
       "native": false
+    },
+    {
+      "name": "Ambient Providoor",
+      "image": "https://ambient.finance/scroll-badge/2.png",
+      "description": "Providoor! You have minted an LP position on Ambient Finance valued over $1000. (Art by @ShizzyAizawa)",
+      "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
+      "badgeContract": "0xC634b718618729df70331D79fcd6E889a547fbEB",
+      "issuer": {
+        "name": "Ambient Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
+        "origin": "https://ambient.finance/"
+      },
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
+      "native": false
     }
   ]
 }
