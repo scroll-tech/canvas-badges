@@ -3,6 +3,62 @@
   "timestamp": "2024-07-14T14:56:48.996Z",
   "badges": [
     {
+      "name": "Ambient Swapooor",
+      "image": "https://ambient.finance/scroll-badge/1.png",
+      "description": "Swapooor badge is for users who have made a swap on Ambient for $500. (Art by @ShizzyAizawa)",
+      "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
+      "badgeContract": "0xDaf958ec36dB494e82709a3AaB9FA6981EfC4Dad",
+      "issuer": {
+        "name": "Ambient Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
+        "origin": "https://ambient.finance/"
+      },
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
+      "native": false
+    },
+    {
+      "name": "Ambient Providoor",
+      "image": "https://ambient.finance/scroll-badge/2.png",
+      "description": "Providoor badge is for users who have made an LP position on Ambient Finance valued over $1000. (Art by @ShizzyAizawa)",
+      "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
+      "badgeContract": "0xC634b718618729df70331D79fcd6E889a547fbEB",
+      "issuer": {
+        "name": "Ambient Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
+        "origin": "https://ambient.finance/"
+      },
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
+      "native": false
+    },
+    {
+      "name": "Ambient Filloor",
+      "image": "https://ambient.finance/scroll-badge/3.png",
+      "description": "Filloor badge is for users who have filled a limit on Ambient Finance valued over $500. (Art by @ShizzyAizawa)",
+      "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
+      "badgeContract": "0x21C5E85eBCbd924BA633D4A7A5F2718f25C713D8",
+      "issuer": {
+        "name": "Ambient Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
+        "origin": "https://ambient.finance/"
+      },
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
+      "native": false
+    },
+    {
+      "name": "Ambient Yeet",
+      "image": "https://ambient.finance/scroll-badge/4.png",
+      "description": "Yeet badge is for users who are providing a sizable amount of liquidity in a single position. You will be rewarded accordingly to the size, but for now, enjoy having a differently colored croc! (Art by @ShizzyAizawa)",
+      "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
+      "badgeContract": "0x7bD1AEADCc59EedaF4775E4D3197Ce9a7031BD01",
+      "issuer": {
+        "name": "Ambient Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Ambient Finance.png",
+        "origin": "https://ambient.finance/"
+      },
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api",
+      "native": false
+    },
+    {
       "name": "Zebra",
       "image": "https://app.zebra.xyz/images/badge.png",
       "description": "Users who participate in Scroll Canvas and complete tasks will receive Zebra's 'zebra' badge. Users with this badge will enjoy Zebra's early benefits in the future.",
