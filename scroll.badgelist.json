@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-14T14:24:46.136Z",
+  "timestamp": "2024-07-14T14:56:48.996Z",
   "badges": [
     {
       "name": "Zebra",
@@ -14,6 +14,20 @@
         "origin": "https://app.zebra.xyz/"
       },
       "baseUrl": "https://zebra.xyz/api/badge",
+      "native": false
+    },
+    {
+      "name": "Unrevealed",
+      "image": "https://cyan-passive-guan-475.mypinata.cloud/ipfs/QmY9rG94E1qpc5NPs1zFTM1hCCTmv9kiRvMoZjGyxCJ2ZE/0.png",
+      "description": "Unrevealed scrolly badge.",
+      "attesterProxy": "0x47a49cCfa1924D5b59cb400708199b6Ae8543D31",
+      "badgeContract": "0x79b4f7492328D0Cc4ED0Ddaee08Cd42f0F36A4CC",
+      "issuer": {
+        "name": "Scrolly",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Scrolly.jpg",
+        "origin": "https://hub.scrolly.xyz/"
+      },
+      "baseUrl": "https://api.scrolly.xyz/api/badge",
       "native": false
     }
   ]
