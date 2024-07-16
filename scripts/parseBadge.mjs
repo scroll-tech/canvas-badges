@@ -36,7 +36,7 @@ const Badge_ABI = [
       badge;
     badgeContract = badgeContract.trim();
     attesterProxy = attesterProxy.trim();
-    baseUrl = baseUrl.trim();
+    baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
     issuerName = issuerName.trim();
     issuerURL = issuerURL.trim();
     const publicClient = createPublicClient({
