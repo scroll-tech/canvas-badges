@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-16T07:22:03.998Z",
+  "timestamp": "2024-07-16T15:59:22.164Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -84,6 +84,20 @@
         "origin": "https://hub.scrolly.xyz/"
       },
       "baseUrl": "https://api.scrolly.xyz/api/badge",
+      "native": false
+    },
+    {
+      "name": "Pencil S Badge",
+      "image": "https://pencilsprotocol.io/nft/scroll/pencil/metadata-s-badge.png",
+      "description": "Pencils S Badge is rewarded to users who actively participated in Pencils Protocol multi-seasons campaign, with staking more than 0.5 ETH equivalent assets into Scroll ecosystem",
+      "attesterProxy": "0x43B643299110F99536aBE0ACA64c98BeD7360286",
+      "badgeContract": "0x766e3f1EE86439DE0597F6e917F980A4e5d187A3",
+      "issuer": {
+        "name": "Pencils Protocol",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Pencils Protocol.jpg",
+        "origin": "https://pencilsprotocol.io"
+      },
+      "baseUrl": "https://pencilsprotocol.io/api/scroll/canvas/badge/pencil",
       "native": false
     }
   ]
