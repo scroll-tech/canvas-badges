@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-14T14:56:48.996Z",
+  "timestamp": "2024-07-16T07:22:03.998Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -84,6 +84,20 @@
         "origin": "https://hub.scrolly.xyz/"
       },
       "baseUrl": "https://api.scrolly.xyz/api/badge",
+      "native": false
+    },
+    {
+      "name": "Scroller Agent Badge",
+      "image": "https://kioskmeta.s3.ap-southeast-1.amazonaws.com/scroller-badge-bridged.png",
+      "description": "Earn this badge by bridging with your Scroller NFT from ETH Mainnet to Scroll.",
+      "attesterProxy": "0x492815d7C37c5310C86A7E66De20d6A1Ca361990",
+      "badgeContract": "0xBbA25F2539af23E7405E58F935de388A627120c6",
+      "issuer": {
+        "name": "Scroller NFT",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Scroller NFT.jpg",
+        "origin": "https://www.scrollernft.xyz"
+      },
+      "baseUrl": "https://vwb06c8e7h.execute-api.us-east-1.amazonaws.com/dev",
       "native": false
     }
   ]
