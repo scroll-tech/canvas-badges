@@ -119,7 +119,7 @@
       "image": "https://kioskmeta.s3.ap-southeast-1.amazonaws.com/scroller-badge-bridged.png",
       "description": "Earn this badge by bridging with your Scroller NFT from ETH Mainnet to Scroll.",
       "attesterProxy": "0x045f9B1089F08C84045017B46dea9f72dEF36bb6",
-      "badgeContract": "0xBbA25F2539af23E7405E58F935de388A627120c6",
+      "badgeContract": "0x9aD600bDD45Cc30242fd905872962dc415F68530",
       "issuer": {
         "name": "Scroller NFT",
         "logo": "https://scroll-eco-list.netlify.app/logos/Scroller NFT.jpg",
