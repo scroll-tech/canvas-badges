@@ -74,7 +74,7 @@
     },
     {
       "name": "Unrevealed",
-      "image": "https://cyan-passive-guan-475.mypinata.cloud/ipfs/QmY9rG94E1qpc5NPs1zFTM1hCCTmv9kiRvMoZjGyxCJ2ZE/0.png",
+      "image": "https://ipfs.io/ipfs/QmY9rG94E1qpc5NPs1zFTM1hCCTmv9kiRvMoZjGyxCJ2ZE/0.png",
       "description": "Unrevealed scrolly badge.",
       "attesterProxy": "0x47a49cCfa1924D5b59cb400708199b6Ae8543D31",
       "badgeContract": "0x79b4f7492328D0Cc4ED0Ddaee08Cd42f0F36A4CC",
