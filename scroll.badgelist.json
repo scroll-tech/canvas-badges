@@ -126,6 +126,7 @@
         "origin": "https://www.scrollernft.xyz"
       },
       "baseUrl": "https://vwb06c8e7h.execute-api.us-east-1.amazonaws.com/dev",
+      "airdrop": true,
       "native": false
     },
     {
