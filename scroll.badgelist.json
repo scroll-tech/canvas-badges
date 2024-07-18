@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-17T18:01:32.025Z",
+  "timestamp": "2024-07-18T00:43:34.324Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -126,6 +126,20 @@
         "origin": "https://www.scrollernft.xyz"
       },
       "baseUrl": "https://vwb06c8e7h.execute-api.us-east-1.amazonaws.com/dev",
+      "native": false
+    },
+    {
+      "name": "Unique Humanity Score",
+      "image": "https://raw.githubusercontent.com/gitcoinco/passport/93889216df77f83470b948f5c8b3f48c3b0492b4/app/public/scrollBadgeImages/60%2B.png",
+      "description": "This badge is for Scrollers who have a Passport score above 20, and have minted an onchain attestation to the Scroll network. Minting this badge informs everyone in the Scroll ecosystem that you're a real human!",
+      "attesterProxy": "0x39571bBD5a4c5d1a5184004c63F45FE426dB85Ea",
+      "badgeContract": "0xa623f348A12cFdC6B64a8c9e883dD9B243438E79",
+      "issuer": {
+        "name": "Passport XYZ",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Passport XYZ.jpg",
+        "origin": "https://passport.gitcoin.co/#/scroll"
+      },
+      "baseUrl": "https://passport-iam.gitcoin.co/scroll",
       "native": false
     }
   ]
