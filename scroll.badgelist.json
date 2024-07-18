@@ -5,7 +5,7 @@
     {
       "name": "Ambient Swapooor",
       "image": "https://ambient.finance/scroll-badge/1.png",
-      "description": "Swapooor badge is for users who have made a swap on Ambient for $500. (Art by @ShizzyAizawa)",
+      "description": "Swapooor badge is for users who have made one or more single swaps on Ambient for $500. (Art by @ShizzyAizawa)",
       "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
       "badgeContract": "0xDaf958ec36dB494e82709a3AaB9FA6981EfC4Dad",
       "issuer": {
@@ -19,7 +19,7 @@
     {
       "name": "Ambient Providoor",
       "image": "https://ambient.finance/scroll-badge/2.png",
-      "description": "Providoor badge is for users who have made an LP position on Ambient Finance valued over $1000. (Art by @ShizzyAizawa)",
+      "description": "Providoor badge is for users who have made one or more single LP positions on Ambient Finance valued over $1000. (Art by @ShizzyAizawa)",
       "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
       "badgeContract": "0xC634b718618729df70331D79fcd6E889a547fbEB",
       "issuer": {
@@ -33,7 +33,7 @@
     {
       "name": "Ambient Filloor",
       "image": "https://ambient.finance/scroll-badge/3.png",
-      "description": "Filloor badge is for users who have filled a limit on Ambient Finance valued over $500. (Art by @ShizzyAizawa)",
+      "description": "Filloor badge is for users who have one or more filled limit orders on Ambient Finance valued over $500. (Art by @ShizzyAizawa)",
       "attesterProxy": "0xf61B5dAe16948F0f1ed9141634E4647bBaAa4A81",
       "badgeContract": "0x21C5E85eBCbd924BA633D4A7A5F2718f25C713D8",
       "issuer": {
