@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-18T00:43:34.324Z",
+  "timestamp": "2024-07-22T08:07:31.247Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -141,6 +141,20 @@
         "origin": "https://passport.gitcoin.co/#/scroll"
       },
       "baseUrl": "https://passport-iam.gitcoin.co/scroll",
+      "native": false
+    },
+    {
+      "name": "ZNS Badge",
+      "image": "https://assets.znsconnect.io/scroll-badge.jpg",
+      "description": "Earn this badge for minting a ZNS Domain on Scroll",
+      "attesterProxy": "NA",
+      "badgeContract": "0x0246D65bA41Da3DB6dB55e489146eB25ca3634E5",
+      "issuer": {
+        "name": "ZNS Connect",
+        "logo": "https://scroll-eco-list.netlify.app/logos/ZNS Connect.jpg",
+        "origin": "https://www.znsconnect.io/"
+      },
+      "baseUrl": "NA",
       "native": false
     }
   ]
