@@ -95,6 +95,8 @@ const Badge_ABI = [
       native: false,
     };
 
+    let extraProperties = {};
+
     if (type === "airdropped") {
       baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
 
