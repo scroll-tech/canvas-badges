@@ -98,17 +98,17 @@ const Badge_ABI = [
       native: false,
     };
 
-    if (type === "Airdropped") {
+    if (type === "airdropped") {
       extraProperties = {
         airdrop: true,
         baseUrl,
       };
-    } else if (type === "Backend-authorized") {
+    } else if (type === "backend-authorized") {
       extraProperties = {
         attesterProxy,
         baseUrl,
       };
-    } else if (type === "Permissionless") {
+    } else if (type === "permissionless") {
       extraProperties = {
         eligibilityCheck,
       };

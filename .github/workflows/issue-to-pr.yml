@@ -33,6 +33,8 @@ jobs:
       - name: Parse Issue Body
         uses: stefanbuck/github-issue-praser@v3
         id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/add_${{ steps.label-badge.outputs.type }}_badge.yml
 
       - name: Parse Badge
         id: parse-badge
