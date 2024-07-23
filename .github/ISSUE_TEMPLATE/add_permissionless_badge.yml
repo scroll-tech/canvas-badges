@@ -1,0 +1,40 @@
+name: "Add a Permissionless badge"
+description: "The user attests to themselves using EAS.attest. The badge contract ensures that the issuer is authorized."
+title: "[Badge]: "
+labels: ["Permissionless"]
+body:
+  - type: input
+    id: badgeContract
+    attributes:
+      label: Badge Contract Address
+      description: Address of badge contranct deployed on Scroll.
+      placeholder: "0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0"
+    validations:
+      required: true
+  - type: dropdown
+    id: eligibilityCheck
+    attributes:
+      label: Enable isEligible
+      description: Does the badge contract inherit from [ScrollBadgeEligibilityCheck](https://github.com/scroll-tech/canvas-contracts/blob/master/src/badge/examples/ScrollBadgePermissionless.sol)?
+      options:
+        - "Yes"
+        - "No"
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: issuerName
+    attributes:
+      label: Issuer Name
+      description: Name of badge issuer. As same as the one listed on [Scroll Ecosystem](https://scroll.io/ecosystem#protocols).
+      placeholder: "Scroll"
+    validations:
+      required: true
+  - type: input
+    id: issuerURL
+    attributes:
+      label: Issuer URL
+      description: URL of the badge promotional page, If left blank, it defaults to the issuer’s website on [Scroll Ecosystem](https://scroll.io/ecosystem#protocols).
+      placeholder: "https://scroll.io"
+    validations:
+      required: false

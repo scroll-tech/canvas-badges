@@ -1,13 +1,13 @@
-name: "Add badge"
-description: "Users can see them on the scroll canvas and mint them."
+name: "Add a Backend-authorized badge"
+description: "A centralized backend implements some off-chain eligibility check. If the user is authorized to mint, the backend issues a signed permit."
 title: "[Badge]: "
-labels: ["new"]
+labels: ["Backend-authorized"]
 body:
   - type: input
     id: badgeContract
     attributes:
       label: Badge Contract Address
-      description: Address of badge contranct deployed on Scroll, for permissionless minting, no need
+      description: Address of badge contranct deployed on Scroll.
       placeholder: "0xB1Dbd079c62d181926E5A54932Bb1b15F760e8A0"
     validations:
       required: true
@@ -23,14 +23,14 @@ body:
     id: baseUrl
     attributes:
       label: BaseURL of Check/Claim API
-      description: "like {{baseURL}}/check and {{baseURL}}/claim, refer to https://scrollzkp.notion.site/Badge-APIs-95890d7ca14944e2a6d34835ceb6b914"
+      description: "like {{baseURL}}/check and {{baseURL}}/claim, refer to [Badge APIs](https://scrollzkp.notion.site/Badge-APIs-95890d7ca14944e2a6d34835ceb6b914)"
     validations:
       required: true
   - type: input
     id: issuerName
     attributes:
       label: Issuer Name
-      description: Name of badge issuer. As same as the one listed on https://scroll.io/ecosystem.
+      description: Name of badge issuer. As same as the one listed on [Scroll Ecosystem](https://scroll.io/ecosystem#protocols).
       placeholder: "Scroll"
     validations:
       required: true
@@ -38,7 +38,7 @@ body:
     id: issuerURL
     attributes:
       label: Issuer URL
-      description: URL of the badge promotional page, If left blank, it defaults to the issuer’s website on https://scroll.io/ecosystem.
+      description: URL of the badge promotional page, If left blank, it defaults to the issuer’s website on [Scroll Ecosystem](https://scroll.io/ecosystem#protocols).
       placeholder: "https://scroll.io"
     validations:
       required: false
