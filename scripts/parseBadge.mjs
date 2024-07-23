@@ -33,7 +33,6 @@ const Badge_ABI = [
   try {
     const badge = JSON.parse(process.env.RESOLVED_BADGE_STR);
     const type = process.env.BADGE_TYPE;
-    console.log(type, "type");
     let {
       badgeContract,
       attesterProxy,
@@ -43,11 +42,8 @@ const Badge_ABI = [
       eligibilityCheck,
     } = badge;
     badgeContract = badgeContract.trim();
-    attesterProxy = attesterProxy.trim();
-    baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
     issuerName = issuerName.trim();
     issuerURL = issuerURL.trim();
-    eligibilityCheck = eligibilityCheck === "Yes" ? true : false;
 
     const publicClient = createPublicClient({
       chain: scroll,
@@ -98,17 +94,26 @@ const Badge_ABI = [
       native: false,
     };
 
-    if (type === "Airdropped") {
+    let extraProperties = {};
+
+    if (type === "airdropped") {
+      baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
+
       extraProperties = {
         airdrop: true,
         baseUrl,
       };
-    } else if (type === "Backend-authorized") {
+    } else if (type === "backend-authorized") {
+      attesterProxy = attesterProxy.trim();
+      baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
+
       extraProperties = {
         attesterProxy,
         baseUrl,
       };
-    } else if (type === "Permissionless") {
+    } else if (type === "permissionless") {
+      eligibilityCheck = eligibilityCheck === "Yes" ? true : false;
+
       extraProperties = {
         eligibilityCheck,
       };

@@ -8,11 +8,11 @@ import * as github from "@actions/github";
     );
     let type;
     if (labels.includes("Airdropped")) {
-      type = "Airdropped";
+      type = "airdropped";
     } else if (labels.includes("Backend-authorized")) {
-      type = "Backend-authorized";
+      type = "backend-authorized";
     } else if (labels.includes("Permissionless")) {
-      type = "Permissionless";
+      type = "permissionless";
     } else {
       console.error(
         "The badge type must be one of the following: Airdropped, Backend-authorized, or Permissionless."
