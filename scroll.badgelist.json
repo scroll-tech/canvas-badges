@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-22T08:07:31.247Z",
+  "timestamp": "2024-07-23T07:58:17.904Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -155,6 +155,20 @@
       },
       "eligibilityCheck": true,
       "native": false
+    },
+    {
+      "name": "Scroll Cross-chain Professional",
+      "image": "https://app.symbiosis.finance/scroll/badge.png",
+      "description": "This badge is designed for users who bridged a minimum of $100 through Symbiosis to Scroll",
+      "badgeContract": "0x847a12d159E1380a06e0Cf9978bc61798387a482",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance"
+      },
+      "native": false,
+      "attesterProxy": "0x6EC031F48CE8AB780E2954fDCCFc93FFe9fc1353",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
 }
