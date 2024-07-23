@@ -43,11 +43,8 @@ const Badge_ABI = [
       eligibilityCheck,
     } = badge;
     badgeContract = badgeContract.trim();
-    attesterProxy = attesterProxy.trim();
-    baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
     issuerName = issuerName.trim();
     issuerURL = issuerURL.trim();
-    eligibilityCheck = eligibilityCheck === "Yes" ? true : false;
 
     const publicClient = createPublicClient({
       chain: scroll,
@@ -99,16 +96,23 @@ const Badge_ABI = [
     };
 
     if (type === "airdropped") {
+      baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
+
       extraProperties = {
         airdrop: true,
         baseUrl,
       };
     } else if (type === "backend-authorized") {
+      attesterProxy = attesterProxy.trim();
+      baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
+
       extraProperties = {
         attesterProxy,
         baseUrl,
       };
     } else if (type === "permissionless") {
+      eligibilityCheck = eligibilityCheck === "Yes" ? true : false;
+
       extraProperties = {
         eligibilityCheck,
       };
