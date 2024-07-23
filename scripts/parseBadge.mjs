@@ -32,13 +32,23 @@ const Badge_ABI = [
 (async () => {
   try {
     const badge = JSON.parse(process.env.RESOLVED_BADGE_STR);
-    let { badgeContract, attesterProxy, baseUrl, issuerName, issuerURL } =
-      badge;
+    const type = process.env.BADGE_TYPE;
+    console.log(type, "type");
+    let {
+      badgeContract,
+      attesterProxy,
+      baseUrl,
+      issuerName,
+      issuerURL,
+      eligibilityCheck,
+    } = badge;
     badgeContract = badgeContract.trim();
     attesterProxy = attesterProxy.trim();
     baseUrl = baseUrl.trim().replace(/(.*)\/$/g, "$1");
     issuerName = issuerName.trim();
     issuerURL = issuerURL.trim();
+    eligibilityCheck = eligibilityCheck === "Yes" ? true : false;
+
     const publicClient = createPublicClient({
       chain: scroll,
       transport: http(),
@@ -70,20 +80,42 @@ const Badge_ABI = [
     const [{ name: issuerFullName, ext, website }] = data;
     const issuerLogo = `https://scroll-eco-list.netlify.app/logos/${issuerFullName}${ext}`;
 
-    const newBadge = {
+    const issuer = {
+      name: issuerFullName,
+      logo: issuerLogo,
+      origin: issuerURL || website,
+    };
+    let newBadge = {
       name,
       image,
       description,
-      attesterProxy,
       badgeContract,
       issuer: {
         name: issuerFullName,
         logo: issuerLogo,
         origin: issuerURL || website,
       },
-      baseUrl,
       native: false,
     };
+
+    if (type === "Airdropped") {
+      extraProperties = {
+        airdrop: true,
+        baseUrl,
+      };
+    } else if (type === "Backend-authorized") {
+      extraProperties = {
+        attesterProxy,
+        baseUrl,
+      };
+    } else if (type === "Permissionless") {
+      extraProperties = {
+        eligibilityCheck,
+      };
+    }
+
+    newBadge = { ...newBadge, ...extraProperties };
+
     core.setOutput("new-badge", JSON.stringify(newBadge, null, 2));
     core.setOutput("new-badge_name", name.split(" ").join("_"));
     core.setOutput("new-badge_issuerName", issuerFullName.split(" ").join("_"));

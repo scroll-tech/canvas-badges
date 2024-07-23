@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
+    "@actions/github": "^6.0.0",
     "viem": "^2.13.6"
   }
 }
