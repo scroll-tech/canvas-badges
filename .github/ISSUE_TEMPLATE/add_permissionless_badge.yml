@@ -15,7 +15,7 @@ body:
     id: eligibilityCheck
     attributes:
       label: Enable isEligible
-      description: Does the badge contract inherit from [ScrollBadgeEligibilityCheck](https://github.com/scroll-tech/canvas-contracts/blob/master/src/badge/examples/ScrollBadgePermissionless.sol)?
+      description: "Does the badge contract inherit from [ScrollBadgeEligibilityCheck](https://github.com/scroll-tech/canvas-contracts/blob/master/src/badge/examples/ScrollBadgePermissionless.sol)? Note: **No** means everyone is eligible to mint the badge."
       options:
         - "Yes"
         - "No"
