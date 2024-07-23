@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-22T08:07:31.247Z",
+  "timestamp": "2024-07-23T07:56:43.599Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -155,6 +155,20 @@
       },
       "eligibilityCheck": true,
       "native": false
+    },
+    {
+      "name": "Ambient Swapooor",
+      "image": "https://ambient.finance/scroll-badge/1.png",
+      "description": "Swapooor badge is for users who have made one or more single swaps on Ambient for $500. (Art by @ShizzyAizawa)",
+      "badgeContract": "0xDcB439703F40430dE360dfeEd51E4261D1fAa310",
+      "issuer": {
+        "name": "OKX Wallet",
+        "logo": "https://scroll-eco-list.netlify.app/logos/OKX Wallet.png",
+        "origin": "https://www.okx.com/web3"
+      },
+      "native": false,
+      "airdrop": true,
+      "baseUrl": "https://ambient-scroll-badge.liquidity.tools/api"
     }
   ]
 }
