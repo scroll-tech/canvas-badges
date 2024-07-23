@@ -147,14 +147,13 @@
       "name": "ZNS Badge",
       "image": "https://assets.znsconnect.io/scroll-badge.jpg",
       "description": "Earn this badge for minting a ZNS Domain on Scroll",
-      "attesterProxy": "NA",
       "badgeContract": "0x0246D65bA41Da3DB6dB55e489146eB25ca3634E5",
       "issuer": {
         "name": "ZNS Connect",
         "logo": "https://scroll-eco-list.netlify.app/logos/ZNS Connect.jpg",
         "origin": "https://www.znsconnect.io/"
       },
-      "baseUrl": "NA",
+      "eligibilityCheck": true,
       "native": false
     }
   ]
