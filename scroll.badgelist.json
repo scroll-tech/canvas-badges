@@ -160,14 +160,14 @@
       "name": "Scroll Cross-chain Professional",
       "image": "https://app.symbiosis.finance/scroll/badge.png",
       "description": "This badge is designed for users who bridged a minimum of $100 through Symbiosis to Scroll",
-      "badgeContract": "0x847a12d159E1380a06e0Cf9978bc61798387a482",
+      "badgeContract": "0xB936740f00FFA90a55C362C33840913eaCFDcE25",
       "issuer": {
         "name": "Symbiosis",
         "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
         "origin": "https://symbiosis.finance"
       },
       "native": false,
-      "attesterProxy": "0x6EC031F48CE8AB780E2954fDCCFc93FFe9fc1353",
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
