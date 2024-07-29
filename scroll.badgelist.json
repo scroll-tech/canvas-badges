@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-29T06:08:27.878Z",
+  "timestamp": "2024-07-29T08:50:27.896Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -183,6 +183,20 @@
       "native": false,
       "attesterProxy": "0x65AB4b5f30AeF8B29858eA2cbD6b0d0E68010206",
       "baseUrl": "https://mp.trustalabs.ai/attestations/media_badge"
+    },
+    {
+      "name": "Scroll Swapper",
+      "image": "https://app.symbiosis.finance/scroll/badge2.png",
+      "description": "This badge is designed for users who made a minimum of $10 on-chain swap on Scroll (E.g. ETH to USDC)",
+      "badgeContract": "0x3c1A82D5877AB970Be9d80AB8185C5F9F1505C49",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
 }
