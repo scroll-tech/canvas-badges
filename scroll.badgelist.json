@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-29T06:08:27.878Z",
+  "timestamp": "2024-07-29T09:47:00.508Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -183,6 +183,20 @@
       "native": false,
       "attesterProxy": "0x65AB4b5f30AeF8B29858eA2cbD6b0d0E68010206",
       "baseUrl": "https://mp.trustalabs.ai/attestations/media_badge"
+    },
+    {
+      "name": "XHS Holder",
+      "image": "https://imagedelivery.net/Ebdw_AyMzN9_57Atf3-rVg/3c3a84ea-967a-4c64-29c6-8bafce785800/public",
+      "description": "This badge is for holders with an XHS (Adaptive Humanity Score) above 0. Prove your humanity at https://xname.app/xhs .",
+      "badgeContract": "0x7C0deB6aBf29cC829186933720af67da8B1EF633",
+      "issuer": {
+        "name": "XSTAR",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XSTAR.jpg",
+        "origin": "https://xstar.id/"
+      },
+      "native": false,
+      "attesterProxy": "0xc2968d15a98406582a9fbc40c4508ce9cad4577e",
+      "baseUrl": "https://scroll-canvas-api.xname.app/api/check"
     }
   ]
 }
