@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-23T08:10:15.771Z",
+  "timestamp": "2024-07-29T06:08:27.878Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -169,6 +169,20 @@
       "native": false,
       "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": " Scroll Reputation Attestation ",
+      "image": "https://static.trustalabs.ai/staticfiles/app/icon/scbg.png",
+      "description": " Trusta MEDIA Score on Scroll Network ranging from 20 to 100 is eligible for minting a Reputation Attestation Badge on Scroll. Craft this badge to affirm your status as an engaged participant in the realm of Scroll!",
+      "badgeContract": "0x47FF789Da49686C6cC38998F76F78A12A5939082",
+      "issuer": {
+        "name": "Trusta Labs",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Trusta Labs.png",
+        "origin": "https://trustgo.trustalabs.ai/att/scm"
+      },
+      "native": false,
+      "attesterProxy": "0x65AB4b5f30AeF8B29858eA2cbD6b0d0E68010206",
+      "baseUrl": "https://mp.trustalabs.ai/attestations/media_badge"
     }
   ]
 }
