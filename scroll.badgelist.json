@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-29T09:47:00.508Z",
+  "timestamp": "2024-07-30T06:12:23.039Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -239,6 +239,20 @@
       "native": false,
       "attesterProxy": "0xc2968d15a98406582a9fbc40c4508ce9cad4577e",
       "baseUrl": "https://scroll-canvas-api.xname.app/api"
+    },
+    {
+      "name": "Scroll Booster",
+      "image": "https://imagedelivery.net/Ebdw_AyMzN9_57Atf3-rVg/b511e8e2-1af8-493f-2f7a-abce26bdcc00/public",
+      "description": "This badge is for holders with .scroll names. Secure your .scroll identity at https://xname.app .",
+      "badgeContract": "0xed269A526ad793CcB671Ef55A7AF6E45F300d462",
+      "issuer": {
+        "name": "XSTAR",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XSTAR.jpg",
+        "origin": "https://xstar.id/"
+      },
+      "native": false,
+      "attesterProxy": "0xA599bA9656CD5bb3C1D841c9866704BdEB724DFe",
+      "baseUrl": "https://scroll-canvas-api.xname.app/api/domain"
     }
   ]
 }
