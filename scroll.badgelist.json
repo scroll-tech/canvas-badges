@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-29T09:47:00.508Z",
+  "timestamp": "2024-07-30T07:46:50.758Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -239,6 +239,20 @@
       "native": false,
       "attesterProxy": "0xc2968d15a98406582a9fbc40c4508ce9cad4577e",
       "baseUrl": "https://scroll-canvas-api.xname.app/api"
+    },
+    {
+      "name": "OmniHub Badge",
+      "image": "https://omnihub.nyc3.digitaloceanspaces.com/scroll/badge.png",
+      "description": "This badge is designed for users who created a minimum one NFT collection through OmniHub to Scroll network.",
+      "badgeContract": "0xdd8CCDad022999afD61DFda146e4C40F47dE4Eec",
+      "issuer": {
+        "name": "OmniHub",
+        "logo": "https://scroll-eco-list.netlify.app/logos/OmniHub.jpg",
+        "origin": "https://omnihub.xyz"
+      },
+      "native": false,
+      "attesterProxy": "0x13babb8C705506Fd71f7e9Aff431B9aF2E659FE9",
+      "baseUrl": "https://api.omnihub.xyz/api/integration/scroll"
     }
   ]
 }
