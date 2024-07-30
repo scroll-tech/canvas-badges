@@ -34,6 +34,7 @@ const Badge_ABI = [
     const badge = JSON.parse(process.env.RESOLVED_BADGE_STR);
     const type = process.env.BADGE_TYPE;
     let {
+      badgeCategory,
       badgeContract,
       attesterProxy,
       baseUrl,
@@ -61,9 +62,17 @@ const Badge_ABI = [
       /^ipfs:\/\/(.*)/,
       "https://ipfs.io/ipfs/$1"
     );
-    let { name, image, description } = await fetch(metadataURL).then((res) =>
-      res.json()
+    let { name, image, description, community } = await fetch(metadataURL).then(
+      (res) => res.json()
     );
+
+    if (!name || !image || !description || !community) {
+      console.error(
+        "Please ensure that the JSON returned by badgeTokenURI includes `name`, `image`, `description`, and `community`."
+      );
+      process.exit(1);
+    }
+
     image = image.replace(/^ipfs:\/\/(.*)/, "https://ipfs.io/ipfs/$1");
 
     const { data } = await fetch(
@@ -86,6 +95,7 @@ const Badge_ABI = [
       image,
       description,
       badgeContract,
+      category: badgeCategory,
       issuer: {
         name: issuerFullName,
         logo: issuerLogo,
