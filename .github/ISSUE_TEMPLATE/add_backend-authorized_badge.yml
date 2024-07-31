@@ -3,6 +3,17 @@ description: "A centralized backend implements some off-chain eligibility check.
 title: "[Badge]: "
 labels: ["Backend-authorized"]
 body:
+  - type: dropdown
+    id: badgeCategory
+    attributes:
+      label: Badge Category
+      options:
+        - Status
+        - Identity
+        - Achievement
+      default: 0
+    validations:
+      required: true
   - type: input
     id: badgeContract
     attributes:

@@ -241,6 +241,20 @@
       "baseUrl": "https://scroll-canvas-api.xname.app/api"
     },
     {
+      "name": "Scroll Booster",
+      "image": "https://imagedelivery.net/Ebdw_AyMzN9_57Atf3-rVg/b511e8e2-1af8-493f-2f7a-abce26bdcc00/public",
+      "description": "This badge is for holders with .scroll names. Secure your .scroll identity at https://xname.app .",
+      "badgeContract": "0xed269A526ad793CcB671Ef55A7AF6E45F300d462",
+      "issuer": {
+        "name": "XSTAR",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XSTAR.jpg",
+        "origin": "https://xstar.id/"
+      },
+      "native": false,
+      "attesterProxy": "0xA599bA9656CD5bb3C1D841c9866704BdEB724DFe",
+      "baseUrl": "https://scroll-canvas-api.xname.app/api/domain"
+    },
+    {
       "name": "OmniHub Badge",
       "image": "https://omnihub.nyc3.digitaloceanspaces.com/scroll/badge.png",
       "description": "This badge is designed for users who created a minimum one NFT collection through OmniHub to Scroll network.",
