@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-30T07:46:50.758Z",
+  "timestamp": "2024-07-31T01:07:20.637Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -267,6 +267,21 @@
       "native": false,
       "attesterProxy": "0x13babb8C705506Fd71f7e9Aff431B9aF2E659FE9",
       "baseUrl": "https://api.omnihub.xyz/api/integration/scroll"
+    },
+    {
+      "name": " Proof of Humanity Badge ",
+      "image": "https://static.trustalabs.ai/staticfiles/app/icon/sc3.png",
+      "description": " Demonstrate your human agency exclusively through your blockchain activities, without the necessity for validation from a centralized entity. The issuance of this badge serves as a testament to your authenticity as a human participant within the Scroll ecosystem.",
+      "badgeContract": "0x26B97C832C04C06cAd34dCE23c701beDC3555a5c",
+      "category": "Identity",
+      "issuer": {
+        "name": "Trusta Labs",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Trusta Labs.png",
+        "origin": "https://trustgo.trustalabs.ai/att/scs"
+      },
+      "native": false,
+      "attesterProxy": "0x9C8a1c5B993BaF52E9dD920181767b67bBd4d3A6",
+      "baseUrl": "https://mp.trustalabs.ai/attestations/poh_badge"
     }
   ]
 }
