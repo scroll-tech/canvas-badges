@@ -62,9 +62,9 @@ const Badge_ABI = [
       /^ipfs:\/\/(.*)/,
       "https://ipfs.io/ipfs/$1"
     );
-    let { name, image, description, community } = await fetch(metadataURL).then(
-      (res) => res.json()
-    );
+    let { name, image, description, community } = await fetch(
+      accessableURL
+    ).then((res) => res.json());
 
     // TODO: require community
     if (!name || !image || !description) {
