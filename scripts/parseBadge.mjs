@@ -66,7 +66,7 @@ const Badge_ABI = [
       (res) => res.json()
     );
 
-    if (!name || !image || !description || !community) {
+    if (!name || !image || !description) {
       console.error(
         "Please ensure that the JSON returned by badgeTokenURI includes `name`, `image`, `description`, and `community`."
       );
