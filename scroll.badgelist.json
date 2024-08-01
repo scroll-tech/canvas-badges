@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-31T01:07:20.637Z",
+  "timestamp": "2024-07-31T01:16:32.350Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -282,6 +282,21 @@
       "native": false,
       "attesterProxy": "0x9C8a1c5B993BaF52E9dD920181767b67bBd4d3A6",
       "baseUrl": "https://mp.trustalabs.ai/attestations/poh_badge"
+    },
+    {
+      "name": "Scroll RetroBridger",
+      "image": "https://ipfs.io/ipfs/QmQLj8S8guqjHuXPexGVgeEZC1QUp13VCQEtFjX6jty2dk/0.png",
+      "description": "RetroBridger Badge on Scroll L2 dedicated for everyone who bridged from 0.05 ETH or $150 worth of stables through RetroBridge to Scroll Network",
+      "badgeContract": "0x59700c6Ed282eD7611943129f226914ACBB3982b",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Retro Bridge",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Retro Bridge.jpg",
+        "origin": "https://app.retrobridge.io"
+      },
+      "native": false,
+      "attesterProxy": "0xbE3B5EB273567D3D5CeAB69815CfD254Ee48FAF3",
+      "baseUrl": "https://backend.retrobridge.io/api/quest"
     }
   ]
 }
