@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T07:14:57.750Z",
+  "timestamp": "2024-08-02T07:16:34.648Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -327,6 +327,21 @@
       "native": false,
       "attesterProxy": "0xA6447fA0508c6bEfb413a0adE5fCfe26C4998DeA",
       "baseUrl": "https://api.smilecobra.io/tripartite/scroll/badge"
+    },
+    {
+      "name": "Scroll Explorer",
+      "image": "https://xenobunny.s3.amazonaws.com/images/scroll-canvas/scroll-explorer-badge.png",
+      "description": "Own at least 1 piece of land on Scroll, either through purchase or adventure reward.",
+      "badgeContract": "0x7188B352C818f291432CDe8E4B1f0576c188F9e4",
+      "category": "Achievement",
+      "issuer": {
+        "name": "XenoBunny",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XenoBunny.jpg",
+        "origin": "https://www.xenobunny.xyz/"
+      },
+      "native": false,
+      "attesterProxy": "0x2DCa57F08b8445BD6265b3667D5a420089255b92",
+      "baseUrl": "https://publicapi.xenobunny.xyz/canvas/lands/check?badge={{badgeContractAddress}&recipient={{walletAddress}}"
     }
   ]
 }
