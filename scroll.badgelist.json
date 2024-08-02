@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-07-31T01:16:32.350Z",
+  "timestamp": "2024-08-02T06:40:58.721Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -297,6 +297,21 @@
       "native": false,
       "attesterProxy": "0xbE3B5EB273567D3D5CeAB69815CfD254Ee48FAF3",
       "baseUrl": "https://backend.retrobridge.io/api/quest"
+    },
+    {
+      "name": "Symbiosis Pro Swapper",
+      "image": "https://app.symbiosis.finance/scroll/badge4.png",
+      "description": "This badge is designed for users who made a minimum of $100 on-chain swap on Scroll (E.g. wrsETH to weETH)",
+      "badgeContract": "0x0a584c042133aF17f3e522F09A77Ee1496f3a567",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
 }
