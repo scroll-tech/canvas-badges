@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T06:40:58.721Z",
+  "timestamp": "2024-08-02T07:14:57.750Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -312,6 +312,21 @@
       "native": false,
       "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Smilecobra Genesis Badge",
+      "image": "https://static.smilecobra.io/attach/2024/08/66ac7306e778.png",
+      "description": "Users who complete quest on the SmileCobra platform and mint the SMC HONOUR NFT will receive the SmileCobra Genesis Badge. Holders of this badge will enjoy potential airdrop incentives across the entire platform in the future.",
+      "badgeContract": "0x7ecf596Ed5fE6957158cD626b6bE2A667267424f",
+      "category": "Achievement",
+      "issuer": {
+        "name": "SmileCobra Studio",
+        "logo": "https://scroll-eco-list.netlify.app/logos/SmileCobra Studio.jpg",
+        "origin": "https://www.smilecobra.io/smc"
+      },
+      "native": false,
+      "attesterProxy": "0xA6447fA0508c6bEfb413a0adE5fCfe26C4998DeA",
+      "baseUrl": "https://api.smilecobra.io/tripartite/scroll/badge"
     }
   ]
 }
