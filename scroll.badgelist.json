@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T08:12:28.831Z",
+  "timestamp": "2024-08-02T08:12:58.717Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -342,6 +342,20 @@
       "native": false,
       "attesterProxy": "0x2DCa57F08b8445BD6265b3667D5a420089255b92",
       "baseUrl": "https://publicapi.xenobunny.xyz/canvas/lands"
+    },
+    {
+      "name": "Scroll Overlord",
+      "image": "https://xenobunny.s3.amazonaws.com/images/scroll-canvas/scroll-overlord-badge.png",
+      "description": "Participated in at least one Land War season on scroll.",
+      "badgeContract": "0xb2c69173829E23EE2876FBe13Ab474FEe101bc64",
+      "category": "Achievement",
+      "issuer": {
+        "name": "XenoBunny",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XenoBunny.jpg",
+        "origin": "https://www.xenobunny.xyz/"
+      },
+      "native": false,
+      "eligibilityCheck": true
     }
   ]
 }
