@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T08:12:58.717Z",
+  "timestamp": "2024-08-02T13:57:08.687Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -353,6 +353,20 @@
         "name": "XenoBunny",
         "logo": "https://scroll-eco-list.netlify.app/logos/XenoBunny.jpg",
         "origin": "https://www.xenobunny.xyz/"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "ZNS Badge",
+      "image": "https://assets.znsconnect.io/scroll-badge.jpg",
+      "description": "Earn this badge for minting a ZNS Domain on Scroll",
+      "badgeContract": "0xf180136DdC9e4F8c9b5A9FE59e2b1f07265C5D4D",
+      "category": "Achievement",
+      "issuer": {
+        "name": "ZNS Connect",
+        "logo": "https://scroll-eco-list.netlify.app/logos/ZNS Connect.jpg",
+        "origin": "https://www.znsconnect.io/"
       },
       "native": false,
       "eligibilityCheck": true
