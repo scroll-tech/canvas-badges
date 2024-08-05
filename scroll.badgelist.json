@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T13:57:08.687Z",
+  "timestamp": "2024-08-05T19:23:31.811Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -370,6 +370,21 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Scrolling bridge 4",
+      "image": "https://app.symbiosis.finance/scroll/badge8.png",
+      "description": "This badge is designed for users who made cross-chain swap from Optimism to Scroll.",
+      "badgeContract": "0x475d1E9Be98B7B7b97D7ED9695541A0209e982dE",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
 }
