@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T13:57:08.687Z",
+  "timestamp": "2024-08-05T19:26:37.062Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -370,6 +370,21 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Scrolling bridge 9",
+      "image": "https://app.symbiosis.finance/scroll/badge13.png",
+      "description": "This badge is designed for users who made cross-chain swap from Polygon zkEVM to Scroll.",
+      "badgeContract": "0xCd223ce0Cc6C05c1604f8f83A50e98202E600bD6",
+      "category": "Status",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
 }
