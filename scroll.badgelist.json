@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T13:57:08.687Z",
+  "timestamp": "2024-08-05T19:23:55.588Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -370,6 +370,21 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Scrolling bridge 5",
+      "image": "https://app.symbiosis.finance/scroll/badge9.png",
+      "description": "This badge is designed for users who made cross-chain swap from Taiko to Scroll.",
+      "badgeContract": "0xCA5d53f143822dd8b9789b1A12d2a10A39a499e4",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
 }
