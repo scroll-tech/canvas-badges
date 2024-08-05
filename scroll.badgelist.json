@@ -358,10 +358,10 @@
       "eligibilityCheck": true
     },
     {
-      "name": "ZNS Badge",
-      "image": "https://assets.znsconnect.io/scroll-badge.jpg",
-      "description": "Earn this badge for minting a ZNS Domain on Scroll",
-      "badgeContract": "0xf180136DdC9e4F8c9b5A9FE59e2b1f07265C5D4D",
+      "name": "Scroll Domain Master Badge 🎖️",
+      "image": "https://assets.znsconnect.io/domain-master-badge.png",
+      "description": "Achieve the Scroll Domain Master Badge by minting 5 domains on Scroll. This prestigious badge marks you as a master in the domain space! Mint your domains now: https://zns.bio/",
+      "badgeContract": "0x55B867a955e4384bcAc03eF7F2E492F68016C152",
       "category": "Achievement",
       "issuer": {
         "name": "ZNS Connect",
