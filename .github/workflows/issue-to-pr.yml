@@ -1,4 +1,4 @@
-name: Issue To Pr
+name: Issue To PR
 
 on:
   issues:
@@ -8,11 +8,8 @@ on:
 
 jobs:
   issue-to-pr:
-    name: Issue To Pr
+    name: Issue To PR
     runs-on: ubuntu-latest
-    outputs:
-      branch-name: new-badge/${{ steps.issue-parser.outputs.issueparser_symbol }}
-      pr-number: ${{ steps.create-pr.outputs.pull-request-number }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,7 +28,7 @@ jobs:
         run: node scripts/labelBadge.mjs
 
       - name: Parse Issue Body
-        uses: stefanbuck/github-issue-praser@v3
+        uses: stefanbuck/github-issue-parser@v3
         id: issue-parser
         with:
           template-path: .github/ISSUE_TEMPLATE/add_${{ steps.label-badge.outputs.type }}_badge.yml
@@ -40,7 +37,7 @@ jobs:
         id: parse-badge
         run: node scripts/parseBadge.mjs
         env:
-          RESOLVED_BADGE_STR: ${{ steps.issue-parser.outputs.jsonString }}
+          RESOLVED_BADGE_STR: ${{ github.event.issue.body }}
           BADGE_TYPE: ${{ steps.label-badge.outputs.type }}
 
       - name: Add Badge
@@ -59,7 +56,7 @@ jobs:
           base: main
           branch: ${{ steps.parse-badge.outputs.new-badge_issuerName }}/${{ steps.parse-badge.outputs.new-badge_name }}
           delete-branch: true
-          add-paths: scroll.badgelist.json
+          add-paths: scroll.badgelist.sepolia.json
           labels: |
             new
             ${{ steps.label-badge.outputs.type }}

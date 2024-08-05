@@ -99,6 +99,21 @@
       },
       "baseUrl": "https://interface-git-development-flock-io.vercel.app/api/scrollNFT",
       "native": false
+    },
+    
+    {
+      "name": "GNFT",
+      "badgeContract": "0x63099fF7Abbb5f2c1ecAfaB4578796Ffb830792F",
+      "attesterProxy": "0xE236a35ddB5860a67fF2794Ac031B470d3Edf432",
+      "description": "NFT Description",
+      "image": "https://amethyst-sound-orangutan-120.mypinata.cloud/ipfs/Qmb6aNcUq3cX2fQ3jDVgPyf4JGCEwNVrV26mNFQptYyh6R",
+      "issuer": {
+        "origin": "https://www.scroll.io/#/",
+        "name": "GNFT",
+        "logo": ""
+      },
+      "baseUrl": "https://amethyst-sound-orangutan-120.mypinata.cloud/ipfs/Qmb6aNcUq3cX2fQ3jDVgPyf4JGCEwNVrV26mNFQptYyh6R",
+      "native": false
     }
   ]
 }
