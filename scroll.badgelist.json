@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-02T13:57:08.687Z",
+  "timestamp": "2024-08-05T19:27:00.471Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -370,6 +370,21 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Scrolling bridge 10",
+      "image": "https://app.symbiosis.finance/scroll/badge14.png",
+      "description": "This badge is designed for users who made cross-chain swap from Mode to Scroll.",
+      "badgeContract": "0x3573335B5128F50F79617f1218f2A7aA0EE68703",
+      "category": "Status",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     }
   ]
 }
