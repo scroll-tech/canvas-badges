@@ -552,10 +552,10 @@
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     },
     {
-      "name": "Loyal Scroll Bridger Badge",
-      "image": "https://owlto.finance/icon/badge/silver.png",
-      "description": "Owltors who complete three bridges to Scroll Network via Owlto Finance can claim the Badge.",
-      "badgeContract": "0x2F942fbCd37693B2f4254fEe6e4cd70508e6235a",
+      "name": "Fanaticism Scroll Bridger Badge",
+      "image": "https://owlto.finance/icon/badge/gold.png",
+      "description": "Owltors who complete five bridges to Scroll Network via Owlto Finance can claim the Badge.",
+      "badgeContract": "0xB9CD7EC2A2261AEA5B0251cf2394e5345C95df61",
       "issuer": {
         "name": "Owlto Finance",
         "logo": "https://scroll-eco-list.netlify.app/logos/Owlto Finance.png",
