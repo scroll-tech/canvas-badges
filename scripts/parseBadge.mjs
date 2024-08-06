@@ -41,10 +41,12 @@ const Badge_ABI = [
       issuerName,
       issuerURL,
       eligibilityCheck,
+      community,
     } = badge;
     badgeContract = badgeContract.trim();
     issuerName = issuerName.trim();
     issuerURL = issuerURL.trim();
+    community = community.trim();
 
     const publicClient = createPublicClient({
       chain: scroll,
@@ -62,14 +64,13 @@ const Badge_ABI = [
       /^ipfs:\/\/(.*)/,
       "https://ipfs.io/ipfs/$1"
     );
-    let { name, image, description, community } = await fetch(
-      accessableURL
-    ).then((res) => res.json());
+    let { name, image, description } = await fetch(accessableURL).then((res) =>
+      res.json()
+    );
 
-    // TODO: require community
     if (!name || !image || !description) {
       console.error(
-        "Please ensure that the JSON returned by badgeTokenURI includes `name`, `image`, `description`, and `community`."
+        "Please ensure that the JSON returned by badgeTokenURI includes `name`, `image`, `description`."
       );
       process.exit(1);
     }

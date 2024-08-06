@@ -45,3 +45,11 @@ body:
       placeholder: "https://scroll.io"
     validations:
       required: false
+  - type: input
+    id: community
+    attributes:
+      label: Community URL
+      description: If the user is unable to mint this badge, they can request help through this URL.
+      placeholder: "https://discord.gg/B6sU3S7c"
+    validations:
+      required: true
