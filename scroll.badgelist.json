@@ -372,6 +372,21 @@
       "eligibilityCheck": true
     },
     {
+      "name": "Pencils SOUL Drops",
+      "image": "https://pencilsprotocol.io/nft/scroll/pencil/metadata-soul-drops.png",
+      "description": "The Pencils SOUL Drops program is linked to users’ verified social identities. Holders earn Pencil Points and rewards from Scroll’s ecosystem partners.",
+      "badgeContract": "0x48BD495DD1EcdfBd29be9EAc16242Fd477c45Cd8",
+      "category": "Status",
+      "issuer": {
+        "name": "Pencils Protocol",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Pencils Protocol.jpg",
+        "origin": "https://pencilsprotocol.io"
+      },
+      "native": false,
+      "attesterProxy": "0x546f7e7257963DcFC3A7885e911e47b76c05BB76",
+      "baseUrl": "https://pencilsprotocol.io/api/scroll/canvas/badge/pencil"
+    },
+    {
       "name": "Explorer Certificate",
       "image": "https://xenobunny.s3.amazonaws.com/images/scroll-canvas/scroll-certificate-badge.png",
       "description": "Participated in at least one Land War season (XENOVERSE) on scroll.",
