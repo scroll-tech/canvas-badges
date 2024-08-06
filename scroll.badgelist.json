@@ -372,6 +372,171 @@
       "eligibilityCheck": true
     },
     {
+      "name": "Pencils SOUL Drops",
+      "image": "https://pencilsprotocol.io/nft/scroll/pencil/metadata-soul-drops.png",
+      "description": "The Pencils SOUL Drops program is linked to users’ verified social identities. Holders earn Pencil Points and rewards from Scroll’s ecosystem partners.",
+      "badgeContract": "0x48BD495DD1EcdfBd29be9EAc16242Fd477c45Cd8",
+      "category": "Status",
+      "issuer": {
+        "name": "Pencils Protocol",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Pencils Protocol.jpg",
+        "origin": "https://pencilsprotocol.io"
+      },
+      "native": false,
+      "attesterProxy": "0x546f7e7257963DcFC3A7885e911e47b76c05BB76",
+      "baseUrl": "https://pencilsprotocol.io/api/scroll/canvas/badge/pencil"
+    },
+    {
+      "name": "Explorer Certificate",
+      "image": "https://xenobunny.s3.amazonaws.com/images/scroll-canvas/scroll-certificate-badge.png",
+      "description": "Participated in at least one Land War season (XENOVERSE) on scroll.",
+      "badgeContract": "0x4e2F089a2919df2f0264Fd5e8B43b794F3098808",
+      "category": "Achievement",
+      "issuer": {
+        "name": "XenoBunny",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XenoBunny.jpg",
+        "origin": "https://www.xenobunny.xyz/"
+      },
+      "native": false,
+      "attesterProxy": "0x764Af55daf1cBC7049FAef8e6BC3F626534a7D74",
+      "baseUrl": "https://publicapi.xenobunny.xyz/canvas/certificate"
+    },
+    {
+      "name": "Scrolling bridge 1",
+      "image": "https://app.symbiosis.finance/scroll/badge5.png",
+      "description": "This badge is designed for users who made cross-chain swap from Blast to Scroll.",
+      "badgeContract": "0xB69cF3247b60F72ba560B3C1e0F53DAF9e9D5201",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 2",
+      "image": "https://app.symbiosis.finance/scroll/badge6.png",
+      "description": "This badge is designed for users who made cross-chain swap from Arbitrum One to Scroll.",
+      "badgeContract": "0x35CB802ede5f970AE6d7B8E7b7b82C82Fea273C7",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 3",
+      "image": "https://app.symbiosis.finance/scroll/badge7.png",
+      "description": "This badge is designed for users who made cross-chain swap from Base to Scroll.",
+      "badgeContract": "0x4445BE64c03154052bd661fD1B0d01FC625Df06E",
+      "category": "Status",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 4",
+      "image": "https://app.symbiosis.finance/scroll/badge8.png",
+      "description": "This badge is designed for users who made cross-chain swap from Optimism to Scroll.",
+      "badgeContract": "0x475d1E9Be98B7B7b97D7ED9695541A0209e982dE",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 5",
+      "image": "https://app.symbiosis.finance/scroll/badge9.png",
+      "description": "This badge is designed for users who made cross-chain swap from Taiko to Scroll.",
+      "badgeContract": "0xCA5d53f143822dd8b9789b1A12d2a10A39a499e4",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 6",
+      "image": "https://app.symbiosis.finance/scroll/badge10.png",
+      "description": "This badge is designed for users who made cross-chain swap from zkSync to Scroll.",
+      "badgeContract": "0x9765B7B7926Cb27b84f5F48EA0758Fa99da3C7d6",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 7",
+      "image": "https://app.symbiosis.finance/scroll/badge11.png",
+      "description": "This badge is designed for users who made cross-chain swap from Linea to Scroll.",
+      "badgeContract": "0x6d352E2987C0AC7D896B74453f400477dE7446F0",
+      "category": "Status",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 8",
+      "image": "https://app.symbiosis.finance/scroll/badge12.png",
+      "description": "This badge is designed for users who made cross-chain swap from Mantle to Scroll.",
+      "badgeContract": "0x5bA1cC19C89BeD7d4660316D1eB41B6A581B98c7",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 9",
+      "image": "https://app.symbiosis.finance/scroll/badge13.png",
+      "description": "This badge is designed for users who made cross-chain swap from Polygon zkEVM to Scroll.",
+      "badgeContract": "0xCd223ce0Cc6C05c1604f8f83A50e98202E600bD6",
+      "category": "Status",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
       "name": "Scrolling bridge 10",
       "image": "https://app.symbiosis.finance/scroll/badge14.png",
       "description": "This badge is designed for users who made cross-chain swap from Mode to Scroll.",
