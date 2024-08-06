@@ -373,9 +373,9 @@
     },
     {
       "name": "Entry Scroll Bridger Badge",
-      "image": "https://ipfs.io/ipfs/QmQirw1Gk6UC6kRJo64sfrss49H72uKDAJnTpZ8bLZApe8",
+      "image": "https://owlto.finance/icon/badge/bronze.png",
       "description": "Owltors who complete one bridge to Scroll Network via Owlto Finance can claim the Badge.",
-      "badgeContract": "0x7c61fFE040F7053a6eDFa12A68e521A6E3318e90",
+      "badgeContract": "0x75ea8fA878314FDb9325a1652898bEfcccf88292",
       "issuer": {
         "name": "Owlto Finance",
         "logo": "https://scroll-eco-list.netlify.app/logos/Owlto Finance.png",
