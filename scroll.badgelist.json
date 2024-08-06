@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T19:18:42.961Z",
+  "timestamp": "2024-08-05T19:22:32.663Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -411,6 +411,21 @@
         "name": "Symbiosis",
         "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
         "origin": "https://symbiosis.finance"
+      },
+      "native": false,
+      "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
+      "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Scrolling bridge 2",
+      "image": "https://app.symbiosis.finance/scroll/badge6.png",
+      "description": "This badge is designed for users who made cross-chain swap from Arbitrum One to Scroll.",
+      "badgeContract": "0x35CB802ede5f970AE6d7B8E7b7b82C82Fea273C7",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Symbiosis",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Symbiosis.png",
+        "origin": "https://symbiosis.finance/"
       },
       "native": false,
       "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
