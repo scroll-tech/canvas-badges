@@ -46,7 +46,7 @@ body:
     validations:
       required: false
   - type: input
-    id: community
+    id: communityURL
     attributes:
       label: Community URL
       description: If the user is unable to mint this badge, they can request help through this URL.

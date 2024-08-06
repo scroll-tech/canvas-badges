@@ -41,12 +41,12 @@ const Badge_ABI = [
       issuerName,
       issuerURL,
       eligibilityCheck,
-      community,
+      communityURL,
     } = badge;
     badgeContract = badgeContract.trim();
     issuerName = issuerName.trim();
     issuerURL = issuerURL.trim();
-    community = community.trim();
+    communityURL = communityURL.trim();
 
     const publicClient = createPublicClient({
       chain: scroll,
@@ -102,7 +102,7 @@ const Badge_ABI = [
         name: issuerFullName,
         logo: issuerLogo,
         origin: issuerURL || website,
-        community,
+        communityURL,
       },
       native: false,
     };
