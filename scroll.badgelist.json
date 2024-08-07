@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T19:27:00.471Z",
+  "timestamp": "2024-08-07T12:50:29.704Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -550,6 +550,22 @@
       "native": false,
       "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Fanaticism Scroll Bridger Badge",
+      "image": "https://owlto.finance/icon/badge/gold.png",
+      "description": "Owltors who complete five bridges to Scroll Network via Owlto Finance can claim the Badge.",
+      "badgeContract": "0xB9CD7EC2A2261AEA5B0251cf2394e5345C95df61",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Owlto Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Owlto Finance.png",
+        "origin": "https://owlto.finance/",
+        "communityURL": "https://discord.gg/owlto"
+      },
+      "native": false,
+      "attesterProxy": "0x850C116ea39b49d8714BE4d1dEffDC1009D66C48",
+      "baseUrl": "https://owlto.finance/nocore_api/v1/campaign/scroll-badge"
     }
   ]
 }
