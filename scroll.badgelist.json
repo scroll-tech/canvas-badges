@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T19:27:00.471Z",
+  "timestamp": "2024-08-07T02:32:43.265Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -550,6 +550,21 @@
       "native": false,
       "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Nuri Locker Badge",
+      "image": "https://raw.githubusercontent.com/RamsesExchange/nuri-canvas-contracts/master/images/nuri-locker-standard-badge.png",
+      "description": "This badge represents ownership of a veNURI lock on Scroll",
+      "badgeContract": "0x1dd225EA9585462FF7cb32b1EE7f9a54a4606b66",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Nuri Exchange",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Nuri Exchange.jpeg",
+        "origin": "https://nuri.exchange",
+        "communityURL": "https://discord.gg/n9wgqpVwsn"
+      },
+      "native": false,
+      "eligibilityCheck": true
     }
   ]
 }
