@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T19:27:00.471Z",
+  "timestamp": "2024-08-07T02:56:27.939Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -550,6 +550,22 @@
       "native": false,
       "attesterProxy": "0x7673F45e6E95373BA22651A4f5f594EDEC3006BC",
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
+    },
+    {
+      "name": "Hippo Badge",
+      "image": "https://storage.googleapis.com/hipposwap-interface-website/images/hippo/badge_hippo.png",
+      "description": "This badge is designed for users who have swapped a minimum of $100 on HippoSwap",
+      "badgeContract": "0x3eaD1dE2ccC74EC121d433F49B7b9610773fd29e",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Hippo Swap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Hippo Swap.png",
+        "origin": "https://hipposwap.finance/",
+        "communityURL": "https://link3.to/hipposwap"
+      },
+      "native": false,
+      "airdrop": true,
+      "baseUrl": "https://api.hipposwap.finance/api/badge"
     }
   ]
 }
