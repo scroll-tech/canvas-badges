@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-07T12:50:29.704Z",
+  "timestamp": "2024-08-08T03:22:03.092Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -707,6 +707,21 @@
       "native": false,
       "attesterProxy": "0x850C116ea39b49d8714BE4d1dEffDC1009D66C48",
       "baseUrl": "https://owlto.finance/nocore_api/v1/campaign/scroll-badge"
+    },
+    {
+      "name": "Venister Badge",
+      "image": "https://azure-advisory-dove-95.mypinata.cloud/ipfs/QmQUkBRav4QpY9mqJziVouQvQvCoUBwk92HtSqnxuPuMy8",
+      "description": "Own an champion in the Venverse.",
+      "badgeContract": "0x8483Ae3b737173b9f56d91D64999479274216ffF",
+      "category": "Identity",
+      "issuer": {
+        "name": "Venium",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Venium.png",
+        "origin": "https://www.venverse.venium.io/badges",
+        "communityURL": "https://discord.gg/venium"
+      },
+      "native": false,
+      "eligibilityCheck": true
     }
   ]
 }
