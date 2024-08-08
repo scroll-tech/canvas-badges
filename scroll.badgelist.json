@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T05:48:48.767Z",
+  "timestamp": "2024-08-08T02:27:43.845Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -611,6 +611,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Toaster Degen Badge",
+      "image": "https://www.toaster.finance/assets/scroll-badge/1.png",
+      "description": "You're a true Degen of Toaster! This badge is awarded for collecting 100 Butters. Keep hustling!",
+      "badgeContract": "0xEfB00a5fdE3c50bf2ca8b603E8C14619ece7BCb2",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Toaster Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Toaster Finance.png",
+        "origin": "https://toaster.finance/",
+        "communityURL": "https://t.me/+Mv-_ZMfm2ssxODUx"
+      },
+      "native": false,
+      "attesterProxy": "0xCF27c9bCCCEA79215CB4c48a29ABb485CA060fE8",
+      "baseUrl": "https://api.toaster.finance/api/external/scrol-badge"
     }
   ]
 }
