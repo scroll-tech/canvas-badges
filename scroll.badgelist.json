@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-07T12:50:29.704Z",
+  "timestamp": "2024-08-08T03:41:28.422Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -707,6 +707,21 @@
       "native": false,
       "attesterProxy": "0x850C116ea39b49d8714BE4d1dEffDC1009D66C48",
       "baseUrl": "https://owlto.finance/nocore_api/v1/campaign/scroll-badge"
+    },
+    {
+      "name": "Conft 2024 Badge",
+      "image": "https://ipfs.io/ipfs/QmeoqEhVD2EygXpM4HTCFBgnRD9cNi5R5uUCFUooNNuYW1",
+      "description": "Conft 2024 Badge is for users with a unique ‘.s’ domain name registered on Scroll via Conft’s Name Service. Users with this badge secure eligibility for future rewards from Conft.",
+      "badgeContract": "0x218e736Cc77c1339e42Ac6829ae93AC3CEA65b7a",
+      "category": "Achievement",
+      "issuer": {
+        "name": "coNFT",
+        "logo": "https://scroll-eco-list.netlify.app/logos/coNFT.jpg",
+        "origin": "https://conft.app/",
+        "communityURL": "https://x.com/ConftApp"
+      },
+      "native": false,
+      "eligibilityCheck": true
     }
   ]
 }
