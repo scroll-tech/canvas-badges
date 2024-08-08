@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T05:48:48.767Z",
+  "timestamp": "2024-08-08T02:24:32.390Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -611,6 +611,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Toaster Airdrop Badge",
+      "image": "https://www.toaster.finance/assets/scroll-badge/0.png",
+      "description": "Connect your X (Twitter) account on our website and follow @toasterfinance to receive this badge. You can link your Twitter account here: https://www.toaster.finance/butter. (Art by @yeju_jeong_)",
+      "badgeContract": "0xB0C3793C06C0398C8e285f1cea6e4b21e85514F9",
+      "category": "Status",
+      "issuer": {
+        "name": "Toaster Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Toaster Finance.png",
+        "origin": "https://toaster.finance/",
+        "communityURL": "https://t.me/+Mv-_ZMfm2ssxODUx"
+      },
+      "native": false,
+      "attesterProxy": "0xCF27c9bCCCEA79215CB4c48a29ABb485CA060fE8",
+      "baseUrl": "https://api.toaster.finance/api/external/scrol-badge"
     }
   ]
 }
