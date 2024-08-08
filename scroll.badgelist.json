@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T21:51:59.794Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "SyncSwap Stargazer",
+      "image": "https://syncswap.xyz/images/scroll-badge/2.png",
+      "description": "This badge is rewarded to early SyncSwap users on Scroll who have one or more liquidity position over $1000.",
+      "badgeContract": "0x02be97d5D39a5cE9D0a8bee1fCf02927cf44C1C5",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Syncswap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Syncswap.png",
+        "origin": "https://syncswap.xyz",
+        "communityURL": "https://discord.gg/syncswap"
+      },
+      "native": false,
+      "attesterProxy": "0x3b7607203e7532884cB72Fe78aBB12b139d5e728",
+      "baseUrl": "https://api.syncswap.xyz/api/v2/scroll/badge"
     }
   ]
 }
