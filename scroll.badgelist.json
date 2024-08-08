@@ -552,6 +552,147 @@
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     },
     {
+      "name": "Nuri Locker Badge",
+      "image": "https://raw.githubusercontent.com/RamsesExchange/nuri-canvas-contracts/master/images/nuri-locker-standard-badge.png",
+      "description": "This badge represents ownership of a veNURI lock on Scroll",
+      "badgeContract": "0x1dd225EA9585462FF7cb32b1EE7f9a54a4606b66",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Nuri Exchange",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Nuri Exchange.jpeg",
+        "origin": "https://nuri.exchange",
+        "communityURL": "https://discord.gg/n9wgqpVwsn"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "Hippo Badge",
+      "image": "https://storage.googleapis.com/hipposwap-interface-website/images/hippo/badge_hippo.png",
+      "description": "This badge is designed for users who have swapped a minimum of $100 on HippoSwap",
+      "badgeContract": "0x3eaD1dE2ccC74EC121d433F49B7b9610773fd29e",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Hippo Swap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Hippo Swap.png",
+        "origin": "https://hipposwap.finance/",
+        "communityURL": "https://link3.to/hipposwap"
+      },
+      "native": false,
+      "airdrop": true,
+      "baseUrl": "https://api.hipposwap.finance/api/badge"
+    },
+    {
+      "name": "NFTs2Me Creator Badge",
+      "image": "https://ipfs.io/ipfs/QmZa47KUwQzFhH3f8oHcdTaodsaSq3zAh7EoAAGGS4FFjP",
+      "description": "Badge awarded for creating at least one NFT Collection on Scroll using https://NFTs2Me.com",
+      "badgeContract": "0xdD511825B909ca5F38f911bC7908ec60FA48046c",
+      "category": "Achievement",
+      "issuer": {
+        "name": "NFTs2Me",
+        "logo": "https://scroll-eco-list.netlify.app/logos/NFTs2Me.png",
+        "origin": "https://nfts2me.com/scroll-badges/",
+        "communityURL": "https://discord.com/invite/Usmgxj2Msk"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "NFTs2Me Supporter Badge",
+      "image": "https://ipfs.io/ipfs/QmVvXJHhZjo9E2cmYW4Et1WNa7aaMjsCHf81j5hETr98dX",
+      "description": "This badge is awarded as owner of NFTs2Me Supporter Pins. Mint yours at https://nfts2me.com/scroll-badges/",
+      "badgeContract": "0x18ccC9EeDc31b570E106b452534c691F68562329",
+      "category": "Status",
+      "issuer": {
+        "name": "NFTs2Me",
+        "logo": "https://scroll-eco-list.netlify.app/logos/NFTs2Me.png",
+        "origin": "https://nfts2me.com/scroll-badges/",
+        "communityURL": "https://discord.com/invite/Usmgxj2Msk"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "SyncSwap Lucky Trader",
+      "image": "https://syncswap.xyz/images/scroll-badge/1.png",
+      "description": "This badge is rewarded to early SyncSwap users on Scroll who have made one or more swaps for more than $450.",
+      "badgeContract": "0x7C35e966FfE9966B6BBdeC34F00E5F2dE8d1943A",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Syncswap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Syncswap.png",
+        "origin": "https://syncswap.xyz",
+        "communityURL": "https://discord.gg/syncswap"
+      },
+      "native": false,
+      "attesterProxy": "0x3b7607203e7532884cB72Fe78aBB12b139d5e728",
+      "baseUrl": "https://api.syncswap.xyz/api/v2/scroll/badge"
+    },
+    {
+      "name": "SyncSwap Stargazer",
+      "image": "https://syncswap.xyz/images/scroll-badge/2.png",
+      "description": "This badge is rewarded to early SyncSwap users on Scroll who have one or more liquidity position over $1000.",
+      "badgeContract": "0x15032D6E25A65488e4B914921C9bbbCa35aeB40C",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Syncswap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Syncswap.png",
+        "origin": "https://syncswap.xyz",
+        "communityURL": "https://discord.gg/syncswap"
+      },
+      "native": false,
+      "attesterProxy": "0x3b7607203e7532884cB72Fe78aBB12b139d5e728",
+      "baseUrl": "https://api.syncswap.xyz/api/v2/scroll/badge"
+    },
+    {
+      "name": "SyncSwap Master",
+      "image": "https://syncswap.xyz/images/scroll-badge/3.png",
+      "description": "This badge is rewarded to early SyncSwap users on Scroll who have one or more liquidity position in SyncSwap Aqua Pools over $1000.",
+      "badgeContract": "0xA7e31C8D781A69Dc82f18F3F7adcd96945F640b5",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Syncswap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Syncswap.png",
+        "origin": "https://syncswap.xyz",
+        "communityURL": "https://discord.gg/syncswap"
+      },
+      "native": false,
+      "attesterProxy": "0x3b7607203e7532884cB72Fe78aBB12b139d5e728",
+      "baseUrl": "https://api.syncswap.xyz/api/v2/scroll/badge"
+    },
+    {
+      "name": "Entry Scroll Bridger Badge",
+      "image": "https://owlto.finance/icon/badge/bronze.png",
+      "description": "Owltors who complete one bridge to Scroll Network via Owlto Finance can claim the Badge.",
+      "badgeContract": "0x75ea8fA878314FDb9325a1652898bEfcccf88292",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Owlto Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Owlto Finance.png",
+        "origin": "https://owlto.finance/",
+        "communityURL": "https://discord.gg/owlto"
+      },
+      "native": false,
+      "attesterProxy": "0x850C116ea39b49d8714BE4d1dEffDC1009D66C48",
+      "baseUrl": "https://owlto.finance/nocore_api/v1/campaign/scroll-badge"
+    },
+    {
+      "name": "Loyal Scroll Bridger Badge",
+      "image": "https://owlto.finance/icon/badge/silver.png",
+      "description": "Owltors who complete three bridges to Scroll Network via Owlto Finance can claim the Badge.",
+      "badgeContract": "0x2F942fbCd37693B2f4254fEe6e4cd70508e6235a",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Owlto Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Owlto Finance.png",
+        "origin": "https://owlto.finance/",
+        "communityURL": "https://discord.gg/owlto"
+      },
+      "native": false,
+      "attesterProxy": "0x850C116ea39b49d8714BE4d1dEffDC1009D66C48",
+      "baseUrl": "https://owlto.finance/nocore_api/v1/campaign/scroll-badge"
+    },
+    {
       "name": "Fanaticism Scroll Bridger Badge",
       "image": "https://owlto.finance/icon/badge/gold.png",
       "description": "Owltors who complete five bridges to Scroll Network via Owlto Finance can claim the Badge.",
