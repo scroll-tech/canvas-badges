@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T10:41:09.761Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Explorer Certificate",
+      "image": "https://xenobunny.s3.amazonaws.com/images/scroll-canvas/scroll-certificate-badge.png",
+      "description": "This certificate is designed for people who have sent Bunny to Chain explore on Scroll at least once.",
+      "badgeContract": "0x4e2F089a2919df2f0264Fd5e8B43b794F3098808",
+      "category": "Achievement",
+      "issuer": {
+        "name": "XenoBunny",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XenoBunny.jpg",
+        "origin": "https://www.xenobunny.xyz/",
+        "communityURL": "https://discord.gg/9RHJ2PTs"
+      },
+      "native": false,
+      "attesterProxy": "0x764Af55daf1cBC7049FAef8e6BC3F626534a7D74",
+      "baseUrl": "https://publicapi.xenobunny.xyz/canvas/certificate"
     }
   ]
 }
