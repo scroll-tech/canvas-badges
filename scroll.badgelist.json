@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T05:48:48.767Z",
+  "timestamp": "2024-08-08T02:28:24.197Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -611,6 +611,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Toaster OG Badge",
+      "image": "https://www.toaster.finance/assets/scroll-badge/1.png",
+      "description": "Congratulations, you've achieved OG status on Toaster! This badge is awarded for collecting 300 Butters. Holders of this badge may enjoy exclusive benefits in the future.",
+      "badgeContract": "0xE110648a9563940964D7840f469403AaDC714871",
+      "category": "Status",
+      "issuer": {
+        "name": "Toaster Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Toaster Finance.png",
+        "origin": "https://toaster.finance/",
+        "communityURL": "https://t.me/+Mv-_ZMfm2ssxODUx"
+      },
+      "native": false,
+      "attesterProxy": "0xCF27c9bCCCEA79215CB4c48a29ABb485CA060fE8",
+      "baseUrl": "https://api.toaster.finance/api/external/scrol-badge"
     }
   ]
 }
