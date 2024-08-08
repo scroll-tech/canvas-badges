@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-05T05:48:48.767Z",
+  "timestamp": "2024-08-08T02:26:31.972Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -611,6 +611,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Toaster GM Badge",
+      "image": "https://www.toaster.finance/assets/scroll-badge/1.png",
+      "description": "GM from Toaster! Users who deposit or swap on Scroll more than $200 will receive this badge.",
+      "badgeContract": "0xFb070831e0Acf47c90C3c91fdF11b0c99FaD1e17",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Toaster Finance",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Toaster Finance.png",
+        "origin": "https://toaster.finance/",
+        "communityURL": "https://t.me/+Mv-_ZMfm2ssxODUx"
+      },
+      "native": false,
+      "attesterProxy": "0xCF27c9bCCCEA79215CB4c48a29ABb485CA060fE8",
+      "baseUrl": "https://api.toaster.finance/api/external/scrol-badge"
     }
   ]
 }
