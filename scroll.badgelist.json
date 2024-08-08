@@ -552,6 +552,67 @@
       "baseUrl": "https://api.symbiosis.finance/crosschain/v1/scroll-badge"
     },
     {
+      "name": "Nuri Locker Badge",
+      "image": "https://raw.githubusercontent.com/RamsesExchange/nuri-canvas-contracts/master/images/nuri-locker-standard-badge.png",
+      "description": "This badge represents ownership of a veNURI lock on Scroll",
+      "badgeContract": "0x1dd225EA9585462FF7cb32b1EE7f9a54a4606b66",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Nuri Exchange",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Nuri Exchange.jpeg",
+        "origin": "https://nuri.exchange",
+        "communityURL": "https://discord.gg/n9wgqpVwsn"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "Hippo Badge",
+      "image": "https://storage.googleapis.com/hipposwap-interface-website/images/hippo/badge_hippo.png",
+      "description": "This badge is designed for users who have swapped a minimum of $100 on HippoSwap",
+      "badgeContract": "0x3eaD1dE2ccC74EC121d433F49B7b9610773fd29e",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Hippo Swap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Hippo Swap.png",
+        "origin": "https://hipposwap.finance/",
+        "communityURL": "https://link3.to/hipposwap"
+      },
+      "native": false,
+      "airdrop": true,
+      "baseUrl": "https://api.hipposwap.finance/api/badge"
+    },
+    {
+      "name": "NFTs2Me Creator Badge",
+      "image": "https://ipfs.io/ipfs/QmZa47KUwQzFhH3f8oHcdTaodsaSq3zAh7EoAAGGS4FFjP",
+      "description": "Badge awarded for creating at least one NFT Collection on Scroll using https://NFTs2Me.com",
+      "badgeContract": "0xdD511825B909ca5F38f911bC7908ec60FA48046c",
+      "category": "Achievement",
+      "issuer": {
+        "name": "NFTs2Me",
+        "logo": "https://scroll-eco-list.netlify.app/logos/NFTs2Me.png",
+        "origin": "https://nfts2me.com/scroll-badges/",
+        "communityURL": "https://discord.com/invite/Usmgxj2Msk"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "NFTs2Me Supporter Badge",
+      "image": "https://ipfs.io/ipfs/QmVvXJHhZjo9E2cmYW4Et1WNa7aaMjsCHf81j5hETr98dX",
+      "description": "This badge is awarded as owner of NFTs2Me Supporter Pins. Mint yours at https://nfts2me.com/scroll-badges/",
+      "badgeContract": "0x18ccC9EeDc31b570E106b452534c691F68562329",
+      "category": "Status",
+      "issuer": {
+        "name": "NFTs2Me",
+        "logo": "https://scroll-eco-list.netlify.app/logos/NFTs2Me.png",
+        "origin": "https://nfts2me.com/scroll-badges/",
+        "communityURL": "https://discord.com/invite/Usmgxj2Msk"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
       "name": "SyncSwap Lucky Trader",
       "image": "https://syncswap.xyz/images/scroll-badge/1.png",
       "description": "This badge is rewarded to early SyncSwap users on Scroll who have made one or more swaps for more than $450.",
