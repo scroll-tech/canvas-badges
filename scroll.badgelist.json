@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T09:33:46.413Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "RubyScore ranking on Scroll",
+      "image": "https://ipfs.io/ipfs/QmeG2RRrPpCQVUtMdDdxRL5Gx1ZTSeqZqE1aHpa9HrJf5T/RubyScore1.png",
+      "description": "Increase your on-chain Scroll ranking by collecting NFT boxes on RubyScore and earn a Scroll Canvas badge",
+      "badgeContract": "0x97e02Bc54a98f48B7858357030dAb2f22f701c3B",
+      "category": "Status",
+      "issuer": {
+        "name": "RubyScore",
+        "logo": "https://scroll-eco-list.netlify.app/logos/RubyScore.png",
+        "origin": "https://rubyscore.io/dashboard?net=scroll",
+        "communityURL": "https://discord.gg/rubyscore"
+      },
+      "native": false,
+      "attesterProxy": "0x3d52d95D58fCb53814ea37d580601D2AF2B4CC98",
+      "baseUrl": "https://rubyscore.io/api/scroll-badge"
     }
   ]
 }
