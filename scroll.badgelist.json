@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T05:18:36.311Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Intract Persona Holder",
+      "image": "https://static.highongrowth.xyz/enterprise/64a4035a06c59baa561ccee1/7c6d45a504d544c898c399e1d5a584e7.png",
+      "description": "This badge denotes that the user has minted the Intract Persona NFT on Scroll. Persona NFT is a unique soul bound NFT that gives a snapshot of user’s onchain data as details in NFT. Those who have minted it can use it as a single source of proof for their on-chain activity. It also includes if they have connected their socials and their gitcoin score and thus also doubles down as a Proof of Humanity.",
+      "badgeContract": "0x56c607f29dc1ec34cf66d608925643bad7282a71",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Intract",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Intract.png",
+        "origin": "https://www.intract.io/",
+        "communityURL": "https://discord.com/invite/faXj8Yzua6/"
+      },
+      "native": false,
+      "attesterProxy": "0x856fc48cabf7f3021d21fe21a1703cb2d69163b0",
+      "baseUrl": "https://publicapi.intract.io/api/pv1/external/scroll-badges"
     }
   ]
 }
