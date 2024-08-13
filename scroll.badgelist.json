@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-13T01:52:02.724Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Smilecobra Genleap badge",
+      "image": "https://static.smilecobra.io/attach/2024/08/66b3197c7536.png",
+      "description": "Genleap is the first AAA MMORPG game developed by Smilecobra Studio. Users who complete tasks on Smilecobra and mint SMC HALO NFT will receive the Smilecobra Genleap badge. Holders of this badge will be eligible for potential airdrop rewards from the SMC ",
+      "badgeContract": "0x980f717C3D76faAfEe3382424F83C5e11f045029",
+      "category": "Achievement",
+      "issuer": {
+        "name": "SmileCobra Studio",
+        "logo": "https://scroll-eco-list.netlify.app/logos/SmileCobra Studio.jpg",
+        "origin": "https://www.smilecobra.io/puzzle",
+        "communityURL": "https://www.smilecobra.io/puzzle"
+      },
+      "native": false,
+      "attesterProxy": "0xA6447fA0508c6bEfb413a0adE5fCfe26C4998DeA",
+      "baseUrl": "https://api.smilecobra.io/tripartite/scroll/badge"
     }
   ]
 }
