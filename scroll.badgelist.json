@@ -722,6 +722,54 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Gold Scroll Bridger Badge",
+      "image": "https://cdn.orbiter.finance/badge/gold.png",
+      "description": "Pilots who complete three bridges to Scroll Network via Orbiter Finance can claim the Badge",
+      "badgeContract": "0x32AbcBC88CD5342B5C6e7D8C9b173feCE2f4E883",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Orbiter Finance",
+        "logo": "https://cdn.orbiter.finance/icon/orbiter-icon.png",
+        "origin": "https://www.orbiter.finance",
+        "communityURL": "https://discord.com/invite/FbztTBvnBT"
+      },
+      "native": false,
+      "attesterProxy": "0xdaa058dC7A8FB573f05F171C4E7F41621FB74605",
+      "baseUrl": "https://api.orbiter.finance/badge"
+    },
+    {
+      "name": "Silver Scroll Bridger Badge",
+      "image": "https://cdn.orbiter.finance/badge/silver.png",
+      "description": "Pilots who complete two bridges to Scroll Network via Orbiter Finance can claim the Badge",
+      "badgeContract": "0x10A3065F1FeE957CaB1D97e49B11577ef8335E7D",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Orbiter Finance",
+        "logo": "https://cdn.orbiter.finance/icon/orbiter-icon.png",
+        "origin": "https://www.orbiter.finance",
+        "communityURL": "https://discord.com/invite/FbztTBvnBT"
+      },
+      "native": false,
+      "attesterProxy": "0xdaa058dC7A8FB573f05F171C4E7F41621FB74605",
+      "baseUrl": "https://api.orbiter.finance/badge"
+    },
+    {
+      "name": "Bronze Scroll Bridger Badge",
+      "image": "https://cdn.orbiter.finance/badge/bronze.png",
+      "description": "Pilots who complete two bridges to Scroll Network via Orbiter Finance can claim the Badge",
+      "badgeContract": "0x69308f7554B5Af07cE7735D058454Fb4e35C0998",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Orbiter Finance",
+        "logo": "https://cdn.orbiter.finance/icon/orbiter-icon.png",
+        "origin": "https://www.orbiter.finance",
+        "communityURL": "https://discord.com/invite/FbztTBvnBT"
+      },
+      "native": false,
+      "attesterProxy": "0xdaa058dC7A8FB573f05F171C4E7F41621FB74605",
+      "baseUrl": "https://api.orbiter.finance/badge"
     }
   ]
 }
