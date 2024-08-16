@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-14T17:56:35.183Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "GBadge",
+      "image": "https://ipfs.io/ipfs/Qmbsw9Ciw3ygckpnhuv9oym6VLYZfHtAg2hvokaovLp62D",
+      "description": "The purpose of this badge is to recognize early backers of Grade NFT",
+      "badgeContract": "0x169c1C4805b64C65af3a291d77f4eCCAC2171a2e",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Grades",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Grades.jpg",
+        "origin": "https://gradeseco.com",
+        "communityURL": "https://discord.com/invite/pXwxXyKAz2"
+      },
+      "native": false,
+      "attesterProxy": "0x162113a7D1dB829062dBe8581bB650EeB777A6ca",
+      "baseUrl": "https://api.gradeseco.com/api/claim"
     }
   ]
 }
