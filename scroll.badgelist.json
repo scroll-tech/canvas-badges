@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T06:49:04.397Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Hippo Realm Holder",
+      "image": "https://storage.googleapis.com/hipposwap-interface-website/images/hippo/badge_hippo_realm.png",
+      "description": "This badge is designed for users holding Hippo Realm NFTs on Scroll.",
+      "badgeContract": "0x5C99a6298BBdA89FCF4398FDDd1997e455c6f155",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Hippo Swap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Hippo Swap.png",
+        "origin": "https://hipposwap.finance/",
+        "communityURL": "https://link3.to/hipposwap"
+      },
+      "native": false,
+      "attesterProxy": "0x825fa355BB4FFb7e385c8c4f556f1aDf9897211C",
+      "baseUrl": "https://api.hipposwap.finance/api/badge/holder"
     }
   ]
 }
