@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-14T07:48:39.001Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -718,6 +718,21 @@
         "name": "coNFT",
         "logo": "https://scroll-eco-list.netlify.app/logos/coNFT.jpg",
         "origin": "https://conft.app/",
+        "communityURL": "https://x.com/ConftApp"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "Conft Scroll Box",
+      "image": "https://ipfs.io/ipfs/QmeFviPDjDwfQgcNWH4xMBL6cFf9sgf45upJw6kghN6Wof",
+      "description": "Conft Scroll Box Badge is for the users that minted special “Cosmic Surprise” collection on Scroll. Users with this badge secure eligibility for future rewards from Conft.",
+      "badgeContract": "0x450Efa43661F5D669c35Ed62e18Bed4D6E826508",
+      "category": "Achievement",
+      "issuer": {
+        "name": "coNFT",
+        "logo": "https://scroll-eco-list.netlify.app/logos/coNFT.jpg",
+        "origin": "https://conft.app/scroll/collections/0xcf7f37b4916ac5c530c863f8c8bb26ec1e8d2ccb/nft",
         "communityURL": "https://x.com/ConftApp"
       },
       "native": false,
