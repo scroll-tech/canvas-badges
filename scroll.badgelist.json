@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T21:43:13.410Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "SyncSwap Lucky Trader",
+      "image": "https://syncswap.xyz/images/scroll-badge/1.png",
+      "description": "This badge is rewarded to early SyncSwap users on Scroll who have made one or more swaps for more than $450.",
+      "badgeContract": "0x40eeEAe33D1AD8D954cBC3090f45E1466851e31F",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Syncswap",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Syncswap.png",
+        "origin": "https://syncswap.xyz",
+        "communityURL": "https://discord.gg/syncswap"
+      },
+      "native": false,
+      "attesterProxy": "0x3b7607203e7532884cB72Fe78aBB12b139d5e728",
+      "baseUrl": "https://api.syncswap.xyz/api/v2/scroll/badge"
     }
   ]
 }
