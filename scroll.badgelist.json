@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-16T07:16:15.916Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -719,6 +719,21 @@
         "logo": "https://scroll-eco-list.netlify.app/logos/coNFT.jpg",
         "origin": "https://conft.app/",
         "communityURL": "https://x.com/ConftApp"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "Nuri Locker Badge (200)",
+      "image": "https://raw.githubusercontent.com/RamsesExchange/nuri-canvas-contracts/master/images/nuri-locker-200.png",
+      "description": "This badge represents ownership of a veNURI lock with more than 200 NURI and a locktime above 3 years",
+      "badgeContract": "0x5f3FDfAAc007126Afeb7D62d4267C3D8c4aa7AcD",
+      "category": "Status",
+      "issuer": {
+        "name": "Nuri Exchange",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Nuri Exchange.jpeg",
+        "origin": "https://nuri.exchange",
+        "communityURL": "https://discord.gg/n9wgqpVwsn"
       },
       "native": false,
       "eligibilityCheck": true
