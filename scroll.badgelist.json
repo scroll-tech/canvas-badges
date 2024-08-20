@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T21:45:43.848Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "OmniHub Guardian Badge",
+      "image": "https://omnihub.nyc3.digitaloceanspaces.com/scroll/guardian_badge.png",
+      "description": "This badge is awarded to users who own the OmniHub Guardian NFT collection on the Scroll network.",
+      "badgeContract": "0xE7f10EC881D3bdEF9a67F4c6A5070FfD9A4f7FeE",
+      "category": "Status",
+      "issuer": {
+        "name": "OmniHub",
+        "logo": "https://scroll-eco-list.netlify.app/logos/OmniHub.jpg",
+        "origin": "https://omnihub.xyz/collection/scroll/scroll-guardian",
+        "communityURL": "https://discord.gg/w5ShHyTvhy"
+      },
+      "native": false,
+      "attesterProxy": "0x8499a8bd1051eD3011CB79295d7286d5c9Fe8aF9",
+      "baseUrl": "https://scroll-api.vercel.app/api"
     }
   ]
 }
