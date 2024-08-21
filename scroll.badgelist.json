@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-12T10:47:19.891Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Landing on Scroll",
+      "image": "https://xenobunny.s3.amazonaws.com/images/scroll-canvas/landing-on-scroll.png",
+      "description": "Transfer 1 Bunny NFT to Scroll via Cross-chain Adventure.",
+      "badgeContract": "0xC8AedaFcAa7957Ba5A0d2dFeCA0d1eaa397afb2d",
+      "category": "Achievement",
+      "issuer": {
+        "name": "XenoBunny",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XenoBunny.jpg",
+        "origin": "https://www.xenobunny.xyz/",
+        "communityURL": "https://discord.gg/9RHJ2PTs"
+      },
+      "native": false,
+      "attesterProxy": "0xcF136b24EAfd35623d257FE9CF872799bBfec299",
+      "baseUrl": "https://publicapi.xenobunny.xyz/canvas/landing"
     }
   ]
 }
