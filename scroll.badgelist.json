@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T16:39:09.982Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -719,6 +719,21 @@
         "logo": "https://scroll-eco-list.netlify.app/logos/coNFT.jpg",
         "origin": "https://conft.app/",
         "communityURL": "https://x.com/ConftApp"
+      },
+      "native": false,
+      "eligibilityCheck": true
+    },
+    {
+      "name": "NFTs2Me Supporter Badge",
+      "image": "https://ipfs.io/ipfs/QmVvXJHhZjo9E2cmYW4Et1WNa7aaMjsCHf81j5hETr98dX",
+      "description": "This badge is awarded to owners of NFTs2Me Supporter Pins. Mint yours at https://nfts2me.com/scroll-badges/",
+      "badgeContract": "0x8b198380dB46DCD972c30c67dD24FAcF1Dcdb163",
+      "category": "Status",
+      "issuer": {
+        "name": "NFTs2Me",
+        "logo": "https://scroll-eco-list.netlify.app/logos/NFTs2Me.png",
+        "origin": "https://nfts2me.com/scroll-badges/",
+        "communityURL": "https://discord.com/invite/Usmgxj2Msk"
       },
       "native": false,
       "eligibilityCheck": true
