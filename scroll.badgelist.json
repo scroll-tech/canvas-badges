@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T12:58:05.231Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Scroll MasterBridger",
+      "image": "https://ipfs.io/ipfs/QmdsWopaskmfw6Tnety4mMBDJNWyfNMFQbbYN4swjXqkte/0.png",
+      "description": "Scroll MasterBridger is dedicated for everyone who completed at least 2 bridges from any EVM network to Scroll Network on RetroBridge",
+      "badgeContract": "0xbC8135018a40ad8702C45F867a7902338f3297fD",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Retro Bridge",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Retro Bridge.jpg",
+        "origin": "https://app.retrobridge.io",
+        "communityURL": "https://discord.com/invite/retrobridge"
+      },
+      "native": false,
+      "attesterProxy": "0x368928d77C94c044b46B099772BaFd8A8534E991",
+      "baseUrl": "https://backend.retrobridge.io/api/quest/master_bridger"
     }
   ]
 }
