@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-12T10:49:00.733Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Senior Scroll Explorer",
+      "image": "https://xenobunny.s3.amazonaws.com/images/scroll-canvas/senior-scroll-explorer.png",
+      "description": "Own at least 1 piece of Tier 2 land on Scroll, either through purchase or adventure reward.",
+      "badgeContract": "0xe5B9151F1d995DCF33F63F0f982789A10F87D47e",
+      "category": "Achievement",
+      "issuer": {
+        "name": "XenoBunny",
+        "logo": "https://scroll-eco-list.netlify.app/logos/XenoBunny.jpg",
+        "origin": "https://www.xenobunny.xyz/",
+        "communityURL": "https://discord.gg/9RHJ2PTs"
+      },
+      "native": false,
+      "attesterProxy": "0xFA9729Dee92cD868603B8960A3e6234B2B5A4206",
+      "baseUrl": "https://publicapi.xenobunny.xyz/canvas/lands/senior"
     }
   ]
 }
