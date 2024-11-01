@@ -1,6 +1,6 @@
 {
   "name": "Scroll Badges",
-  "timestamp": "2024-08-08T03:41:28.422Z",
+  "timestamp": "2024-08-08T12:56:32.044Z",
   "badges": [
     {
       "name": "Ambient Swapooor",
@@ -722,6 +722,22 @@
       },
       "native": false,
       "eligibilityCheck": true
+    },
+    {
+      "name": "Scroll MasterSwapper",
+      "image": "https://ipfs.io/ipfs/QmTzPGYstGePRX1LrAEnqaBywEaFXFPA9Lz865bDCyT23W/0.png",
+      "description": "Scroll MasterSwapper is dedicated for everyone who completed at least 2 swaps from any EVM network to Scroll Network on RetroBridge",
+      "badgeContract": "0x07a389EFAD07C6f47612F6308C41EfeAEB713d81",
+      "category": "Achievement",
+      "issuer": {
+        "name": "Retro Bridge",
+        "logo": "https://scroll-eco-list.netlify.app/logos/Retro Bridge.jpg",
+        "origin": "https://app.retrobridge.io",
+        "communityURL": "https://discord.com/invite/retrobridge"
+      },
+      "native": false,
+      "attesterProxy": "0x0dc4C8c26d6b6c4BD4Bc476F784454AD7b59687c",
+      "baseUrl": "https://backend.retrobridge.io/api/quest/master_swapper"
     }
   ]
 }
